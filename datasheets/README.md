@@ -2,8 +2,8 @@
 
 This folder contains datasheets for any important parts used in this project. The latest versions can be found on the manufacturers websites.
 
-- [DRV5056](./drv5056/)
-- [RP2040](./rp2040/)
+- **Hall Sensors**: [DRV5056](./drv5056/)
+- **Microcontroller**: [RP2040](./rp2040/)
 
 ## Gateron KS-20 / Lekker Switches
 
