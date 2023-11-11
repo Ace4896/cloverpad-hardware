@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Harukapad")(type "KiCad")(uri "${KIPRJMOD}/harukapad.kicad_sym")(options "")(descr ""))
-)
