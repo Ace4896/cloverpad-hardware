@@ -1,6 +1,10 @@
 # Harukapad
 
+**NOTE**: This project is still a work-in-progress, this note will be removed once it's ready!
+
 A 3-key analog keypad for osu!.
+
+... picture of finished keypad ...
 
 ## Repository Layout
 
@@ -21,6 +25,8 @@ First, clone the repository with submodules:
 ```bash
 git clone --recurse-submodules https://github.com/Ace4896/harukapad.git
 ```
+
+You can then have a look at the files in the repository and follow the [build guide](./docs/build-guide.md).
 
 ## Acknowledgements
 
