@@ -125,7 +125,7 @@
 
   (footprint "PCM_marbastlib-mx:SW_MX_HS_1u" (layer "B.Cu")
     (tstamp 0a2bf6ce-ebdd-4514-a803-d211dba00613)
-    (at 57.15 75.811647)
+    (at 57.15 74.224147)
     (descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
     (property "Sheetfile" "minimal-pcb.kicad_sch")
     (property "Sheetname" "")
@@ -270,7 +270,7 @@
 
   (footprint "PCM_marbastlib-mx:SW_MX_HS_1u" (layer "B.Cu")
     (tstamp 1f33a64f-66ac-407a-8fbe-56ee2f96119e)
-    (at 76.2 75.811647)
+    (at 76.2 74.224147)
     (descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
     (property "Sheetfile" "minimal-pcb.kicad_sch")
     (property "Sheetname" "")
@@ -483,7 +483,7 @@
 
   (footprint "PCM_marbastlib-mx:SW_MX_HS_1u" (layer "B.Cu")
     (tstamp 7f02f931-075b-481a-b551-624f04fdd8b5)
-    (at 38.1 75.811647)
+    (at 38.1 74.224147)
     (descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
     (property "Sheetfile" "minimal-pcb.kicad_sch")
     (property "Sheetname" "")
