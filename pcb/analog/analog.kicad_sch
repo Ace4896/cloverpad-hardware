@@ -1067,14 +1067,14 @@
         )
       )
     )
-    (symbol "PCM_marbastlib-various:SK6812MINI-E" (in_bom yes) (on_board yes)
-      (property "Reference" "LED" (at 2.54 6.35 0)
+    (symbol "PCM_marbastlib-mx:MX_SK6812MINI-E" (in_bom yes) (on_board yes)
+      (property "Reference" "LED" (at 3.175 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SK6812MINI-E" (at 7.62 -6.35 0)
+      (property "Value" "MX_SK6812MINI-E" (at 10.16 -6.985 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "PCM_marbastlib-various:LED_6028R" (at 0 0 0)
+      (property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
@@ -1086,12 +1086,16 @@
       (property "ki_description" "Reverse mount adressable LED (WS2812 protocol)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "SK6812MINI-E_0_0"
+      (symbol "MX_SK6812MINI-E_0_0"
         (text "RGB" (at 2.286 -4.191 0)
           (effects (font (size 0.762 0.762)))
         )
       )
-      (symbol "SK6812MINI-E_0_1"
+      (symbol "MX_SK6812MINI-E_0_1"
+        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
         (polyline
           (pts
             (xy 1.27 -3.556)
@@ -1153,12 +1157,8 @@
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (rectangle (start 5.08 5.08) (end -5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
       )
-      (symbol "SK6812MINI-E_1_1"
+      (symbol "MX_SK6812MINI-E_1_1"
         (pin power_in line (at 0 7.62 270) (length 2.54)
           (name "VDD" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -4456,7 +4456,7 @@
     )
   )
 
-  (symbol (lib_id "PCM_marbastlib-various:SK6812MINI-E") (at 226.06 91.44 0) (unit 1)
+  (symbol (lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E") (at 226.06 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 614c100b-a4b1-40b4-b093-65dcc9cda12e)
     (property "Reference" "LED1" (at 240.03 85.09 0)
@@ -4913,7 +4913,7 @@
     )
   )
 
-  (symbol (lib_id "PCM_marbastlib-various:SK6812MINI-E") (at 307.34 91.44 0) (unit 1)
+  (symbol (lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E") (at 307.34 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8319b2f8-582b-4dd0-b781-8b4092f4af6f)
     (property "Reference" "LED3" (at 321.31 85.09 0)
@@ -6233,7 +6233,7 @@
     )
   )
 
-  (symbol (lib_id "PCM_marbastlib-various:SK6812MINI-E") (at 266.7 91.44 0) (unit 1)
+  (symbol (lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E") (at 266.7 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db92f481-1bd1-4d92-b8c4-ce2fa11f223e)
     (property "Reference" "LED2" (at 280.67 85.09 0)
