@@ -40,7 +40,7 @@ The analog PCB currently uses these parts:
 |           5.1k Ohm Resistor            |          R_0402_1005Metric          |  C25905  |
 |       USB-C Receptacle (USB 2.0)       | USB_C_Receptacle_HRO_TYPE-C-31-M-12 | C165948  |
 |         500mA Resettable Fuse          |        Fuse_1206_3216Metric         | C170165  |
-|         ESD Protection SRV05-4         |          SOT-23-6-routable          | C2836319 |
+|        ESD Protection (SRV05-4)        |          SOT-23-6-routable          | C2836319 |
 |  3.3V Voltage Regulator XC6206P332MR   |              SOT-23-3               |  C5446   |
 |        Microcontroller (RP2040)        | QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm |  C2040   |
 |             12MHz Crystal              |   Crystal_SMD_3225-4Pin_3.2x2.5mm   |  C9002   |
