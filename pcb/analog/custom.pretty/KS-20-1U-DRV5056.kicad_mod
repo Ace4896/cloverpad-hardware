@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 3.175) (layer "B.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 312e029e-8dfa-4c2f-a329-dc5985d50610)
   )
   (fp_text value "1U" (at 0 -7.9375) (layer "Dwgs.User") hide
