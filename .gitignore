@@ -31,6 +31,12 @@ fp-info-cache
 *.xml
 *.csv
 
+# KiCad JLCPCB Tools
+# https://github.com/Bouni/kicad-jlcpcb-tools
+# Ignore auto-generated files, but retain the project file
+**/*/jlcpcb/*
+!**/*/jlcpcb/project.db
+
 ## FreeCAD
 *.pyc
 *.fcstd1
