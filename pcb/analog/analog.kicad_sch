@@ -4127,7 +4127,7 @@
     (property "Value" "500mA" (at 54.61 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 49.53 29.21 0)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 49.53 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 54.61 27.94 0)
