@@ -11,7 +11,7 @@ A 3-key keypad for osu!, themed after [MORE MORE JUMP!](https://www.sekaipedia.o
 Make sure you have the following things installed:
 
 - [FreeCAD 0.21](https://www.freecad.org/)
-- [KiCad 7]((https://www.kicad.org/))
+- [KiCad 7](https://www.kicad.org/)
 - [KiCad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools) (if you're using JLC for manufacturing the PCB)
 
 First, clone the repository with submodules:
