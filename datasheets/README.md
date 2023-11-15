@@ -31,7 +31,7 @@ This means that the hall sensor used needs to have the following properties:
 - (Ideally) Unipolar i.e. reacts to only one pole / field direction
   - Technically, we can use a bipolar sensor that reacts to both poles, but we lose half of the resolution to a range of values that we won't use
 
-The DRV5056A3 was chosen as it meets majority of this criteria
+The DRV5056A3 was chosen as it meets most of this criteria:
 
 - Has a variant that can detect positive fields
 - Generates a linear output
