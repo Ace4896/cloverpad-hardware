@@ -1,4 +1,4 @@
-(footprint "KS-20-1U" (version 20221018) (generator pcbnew)
+(footprint "KS-20-1U-NoSensor" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 3.175) (layer "Dwgs.User")
