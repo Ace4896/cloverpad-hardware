@@ -4,10 +4,10 @@
 
 It should be possible to find these parts from places like Amazon or electronics stores.
 
-|         Part         | Quantity |
-| :------------------: | :------: |
+|                     Part                      | Quantity |
+| :-------------------------------------------: | :------: |
 | M2 20mm Hex Standoff (3.5mm Outer Diameter\*) |    4     |
-|      M2 Screws       |    4     |
+|                   M2 Screws                   |    4     |
 
 \* - Adjust the outer diameter of the case depending on which hex standoffs you use; maximum of 4mm as this is what the PCB uses
 
