@@ -18,11 +18,11 @@ The case design uses a stacked acrylic sandwich mount with the following layers:
 |      Part       |      Material       | Quantity |
 | :-------------: | :-----------------: | :------: |
 |  `top-spacer`   |     3mm Acrylic     |    2     |
-|     `plate`     |     5mm Acrylic     |    1     |
+|     `plate`     | 5mm Frosted Acrylic |    1     |
 | `bottom-spacer` | 5mm Frosted Acrylic |    1     |
 | `bottom-piece`  | 3mm Frosted Acrylic |    1     |
 
-Frosted acrylic was chosen for the bottom pieces as it can diffuse the RGB underglow lighting better, though regular acrylic is fine as well.
+Frosted acrylic was chosen for the bottom pieces and plate as it can diffuse the RGB underglow lighting better, though regular acrylic is fine as well.
 
 ## PCB
 
