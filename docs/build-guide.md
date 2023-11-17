@@ -9,7 +9,7 @@ It should be possible to find these parts from places like Amazon or electronics
 | M2 20mm Hex Standoff (3.5mm Outer Diameter\*) |    4     |
 |                   M2 Screws                   |    4     |
 
-\* - Adjust the outer diameter of the case depending on which hex standoffs you use; maximum of 4mm as this is what the PCB uses
+\* - Adjust this value depending on which standoffs you're using; this can be specified in FreeCAD under `parameters -> Hex Standoff Outer Diameter / mm` (max value of 4mm)
 
 ## Case
 
