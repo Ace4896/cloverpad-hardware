@@ -25,7 +25,7 @@ Then follow the [build guide](./docs/build-guide.md), which will reference vario
 - [**assets**](./assets): Miscellaneous assets that were used in this project.
 - [**case**](./case): FreeCAD 0.21 project for the sandwich mount case. It uses the [minimal PCB](./case/minimal-pcb/)'s 3D model as a design aid.
 - [**docs**](./docs): Documentation and personal notes for this project.
-- [**pcb**](./pcb): KiCad 7 projects for the 3-key analog PCB, themed after [Haruka Kiritani](https://www.sekaipedia.org/wiki/Kiritani_Haruka).
+- [**pcb**](./pcb): KiCad 7 project for the 3-key analog PCB, themed after [Haruka Kiritani](https://www.sekaipedia.org/wiki/Kiritani_Haruka).
 
 ## Credits
 
