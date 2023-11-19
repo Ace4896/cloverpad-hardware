@@ -4,12 +4,12 @@
 
 It should be possible to find these parts from places like Amazon or electronics stores.
 
-|                     Part                      | Quantity |
-| :-------------------------------------------: | :------: |
-| M2 20mm Hex Standoff (3.5mm Outer Diameter\*) |    4     |
-|                   M2 Screws                   |    8     |
+|          Part          | Quantity |
+| :--------------------: | :------: |
+| M2 20mm Hex Standoff\* |    4     |
+|       M2 Screws        |    8     |
 
-\* - Adjust this value depending on which standoffs you're using; this can be specified in FreeCAD under `parameters -> Hex Standoff Outer Diameter / mm` (max value of 4mm)
+\* - Check the outer diameter of your hex standoffs (distance between opposite corners) and adjust the value in the FreeCAD project (`parameters -> Hex Standoff Outer Diameter / mm`). Most M2 hex standoffs have an outer diameter of 3.2mm, but some extra space is needed to account for tolerances
 
 ## Case
 
