@@ -1,12 +1,4 @@
-# Datasheets
-
-This folder contains datasheets for any important parts used in this project. The latest versions can be found on the manufacturers websites.
-
-- **Hall Sensors**: [DRV5056](./drv5056/)
-- **Key Switches**: [KS-20](./ks-20/) 
-- **Microcontroller**: [RP2040](./rp2040/)
-
-## Hall Sensor Compatibility
+# Hall Sensor Compatibility
 
 **NOTE**: As far as I'm aware, the KS-20 and Lekker switches use the same mechanism, and the only differences are branding, colours and spring weight. It should be possible to use them interchangably.
 
