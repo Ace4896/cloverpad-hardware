@@ -31,8 +31,12 @@ Then follow the [build guide](./docs/build-guide.md), which will reference vario
 
 This project is licensed under [CERN-OHL-S-2.0](./LICENSE).
 
-Below is a list of assets from other projects that were used in these designs:
+Below is a list of assets used from other projects:
 
+- [Project Sekai: Colourful Stage!](https://www.colorfulstage.com/)
+  - © SEGA / © Colorful Palette Inc. / © Crypton Future Media, INC.
+  - This is a fan project and has no affiliation with SEGA, Colorful Palette, or Crypton Future Media.
+  - Assets from MORE MORE JUMP! and its characters are used in the [main PCB](./pcb).
 - [ConstantinoSchillebeeckx/cherry-mx-switch](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch): Cherry MX Switch 3D Model
   - Licensed under [MIT](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch/blob/master/LICENSE)
   - Used in the [minimal PCB](./case/minimal-pcb/) that was made to help design the case.
