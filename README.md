@@ -27,7 +27,11 @@ Then follow the [build guide](./docs/build-guide.md), which will reference vario
 - [**docs**](./docs): Documentation and personal notes for this project.
 - [**pcb**](./pcb): KiCad 7 project for the 3-key analog PCB, themed after [Haruka Kiritani](https://www.sekaipedia.org/wiki/Kiritani_Haruka).
 
-## Credits
+## Licensing
+
+This project is licensed under [CERN-OHL-S-2.0](./LICENSE).
+
+Below is a list of assets from other projects that were used in these designs:
 
 - [ConstantinoSchillebeeckx/cherry-mx-switch](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch): Cherry MX Switch 3D Model
   - Licensed under [MIT](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch/blob/master/LICENSE)
