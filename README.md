@@ -14,7 +14,7 @@ Make sure you have the following things installed:
 - [KiCad 7](https://www.kicad.org/)
 - [KiCad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools) (if you're using JLC for manufacturing the PCB)
 
-First, clone the repository with submodules:
+Clone the repository with submodules:
 
 ```bash
 git clone --recurse-submodules https://github.com/Ace4896/more-more-keypad.git
