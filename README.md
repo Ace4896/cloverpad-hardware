@@ -37,9 +37,9 @@ Below is a list of assets used from other projects:
   - © SEGA / © Colorful Palette Inc. / © Crypton Future Media, INC.
   - This is a fan project and has no affiliation with SEGA, Colorful Palette, or Crypton Future Media.
   - Assets from MORE MORE JUMP! and its characters are used in the [main PCB](./pcb).
-- [ConstantinoSchillebeeckx/cherry-mx-switch](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch): Cherry MX Switch 3D Model
-  - Licensed under [MIT](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch/blob/master/LICENSE)
-  - Used in the [minimal PCB](./case/minimal-pcb/) that was made to help design the case.
-- [ebastler/marbastlib](https://github.com/ebastler/marbastlib): Collection of KiCad footprints for keyboards
-  - Licensed under [CERN-OHL-P-2.0](https://github.com/ebastler/marbastlib/blob/main/LICENSE)
-  - Used in the [main PCB](./pcb) and the [minimal PCB](./case/minimal-pcb/).
+- [ConstantinoSchillebeeckx/cherry-mx-switch](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch)
+  - [MIT License](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch/blob/master/LICENSE)
+  - The Cherry MX Switch 3D model is used in the [minimal PCB](./case/minimal-pcb/) that was made to help design the case.
+- [ebastler/marbastlib](https://github.com/ebastler/marbastlib)
+  - [CERN-OHL-P-2.0 License](https://github.com/ebastler/marbastlib/blob/main/LICENSE)
+  - Various KiCad symbols and footprints are used in the [main PCB](./pcb) and the [minimal PCB](./case/minimal-pcb/).
