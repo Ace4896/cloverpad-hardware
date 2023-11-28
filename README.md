@@ -37,5 +37,5 @@ Below is a list of assets from other projects that were used in these designs:
   - Licensed under [MIT](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch/blob/master/LICENSE)
   - Used in the [minimal PCB](./case/minimal-pcb/) that was made to help design the case.
 - [ebastler/marbastlib](https://github.com/ebastler/marbastlib): Collection of KiCad footprints for keyboards
-  - Licensed under [CERN Open Hardware Licence Version 2](https://github.com/ebastler/marbastlib/blob/main/LICENSE)
+  - Licensed under [CERN-OHL-P-2.0](https://github.com/ebastler/marbastlib/blob/main/LICENSE)
   - Used in the [main PCB](./pcb) and the [minimal PCB](./case/minimal-pcb/).
