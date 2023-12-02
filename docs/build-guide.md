@@ -48,7 +48,7 @@ The analog PCB currently uses these parts:
 |             12MHz Crystal              |   Crystal_SMD_3225-4Pin_3.2x2.5mm   |  C9002   |
 |       16MB Flash (W25Q16JVSSIQ)        |     SOIC-8_5.23x5.23mm_P1.27mm      | C131025  |
 | 5V Logic Level Converter (74AHCT1G125) |           SOT-353_SC-70-5           | C151417  |
-|     Hall Sensor (DRV5056A3xDBZxQ1)     |          KS-20-1U-DRV5056           | C2152965 |
+|     Hall Sensor (DRV5056A4xDBZxQ1)     |          KS-20-1U-DRV5056           | C2152965 |
 |   Switch SMD RGB LEDs (SK6812MINI-E)   |            LED_MX_6028R             | C5149201 |
 |      Underglow RGB LEDs (WS2812B)      | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm  | C2761795 |
 |              Push Buttons              |           SW_SPST_TL3342            | C318884  |
@@ -57,7 +57,7 @@ Some things to keep in mind for each component:
 
 - **22pF Capacitors**: These are used for the crystal; if you're using a different crystal, you'll need to recalculate the values
 - **Flash Memory**: Anything from Winbond's W25Q series should work; I've picked 16MB as it's more than enough for this project
-- **Hall Sensor**: Use the A3 variant of the DRV5056 or DRV5056-Q1 (this should have 79mT / 790G of magnetic range). The Q1 is usually more expensive as it's certified for automotive use
+- **Hall Sensor**: Use the A4 variant of the DRV5056 or DRV5056-Q1 (this should have 155mT / 1550G of magnetic range at 3.3V). The Q1 is usually more expensive as it's certified for automotive use
 - **Underglow RGB LEDs**: Any 50x50mm variant of the WS2812B that operates on 5V logic should work
 - **Switch SMD RGB LEDs**: Make sure that the LEDs have extruding pins which allow them to be reverse mounted
 
