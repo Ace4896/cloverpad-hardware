@@ -48,7 +48,7 @@ The analog PCB currently uses these parts:
 |             12MHz Crystal              |   Crystal_SMD_3225-4Pin_3.2x2.5mm   |  C9002   |
 |       16MB Flash (W25Q16JVSSIQ)        |     SOIC-8_5.23x5.23mm_P1.27mm      | C131025  |
 | 5V Logic Level Converter (74AHCT1G125) |           SOT-353_SC-70-5           | C151417  |
-|     Hall Sensor (DRV5056A4xDBZxQ1)     |          KS-20-1U-DRV5056           | C2152965 |
+|     Hall Sensor (DRV5056A4xDBZxQ1)     |          KS-20-1U-DRV5056           | C2152902 |
 |   Switch SMD RGB LEDs (SK6812MINI-E)   |            LED_MX_6028R             | C5149201 |
 |      Underglow RGB LEDs (WS2812B)      | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm  | C2761795 |
 |              Push Buttons              |           SW_SPST_TL3342            | C318884  |
