@@ -23,11 +23,11 @@ This means that the hall sensor used needs to have the following properties:
 - (Ideally) Unipolar i.e. reacts to only one pole / field direction
   - Technically, we can use a bipolar sensor that reacts to both poles, but we lose half of the resolution to a range of values that we won't use
 
-The DRV5056A3 was chosen as it meets most of this criteria:
+The DRV5056A4 was chosen as it meets most of this criteria:
 
 - Has a variant that can detect positive fields
 - Generates a linear output
-- Has a magnetic range of 79mT (790G)
+- Has a magnetic range of 155mT (1550G) at 3.3V
 - Is unipolar
 
-The only downside is that we can't detect the full travel distance, since the analog output will be saturated before we reach the end of a keypress. If we wanted to detect the whole keypress, we could use the DRV5056A4 instead (magnetic range of 158mT / 1580G), but we lose a large section of the output voltage range as our maximum magnetic flux density is only 905G.
+I had originally chosen the DRV5056A3, which is the same as the A4 aside from the magnetic range (78mT at 3.3V). While it would be compatible, [the calculations](./notebooks/magnet-distance.ipynb) showed that we'd lose the last 0.2mm of travel on average.
