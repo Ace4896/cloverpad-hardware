@@ -15,12 +15,34 @@ To build the keypad, you'll need:
 
 It should be possible to find these parts from places like Amazon or electronics stores.
 
-|           Part           | Quantity |
-| :----------------------: | :------: |
-| M2 20mm Round Standoff\* |    4     |
-|        M2 Screws         |    8     |
+|          Part          | Quantity |
+| :--------------------: | :------: |
+| 20mm Round M2 Standoff |    4     |
+|       M2 Screws        |    8     |
 
-\* - Check the outer diameter of your standoffs and adjust the value in the FreeCAD project (`parameters -> Standoff Outer Diameter / mm`). Usually this is 3.2mm, but some extra space is needed to account for tolerances
+**NOTE**: Before you get the case and PCB manufactured, you'll need to check the outer diameter of the M2 standoffs you're using. Usually, this is 3.2mm - the default mounting holes in the case and PCB have a diameter of 3.5mm, which should give enough room to account for tolerances.
+
+If you do need to modify the mounting hole diameter, there are a few things to change:
+
+- `cloverpad-case`:
+  - Open the project in FreeCAD
+  - In the tree view on the left, open `parameters` - this will open the spreadsheet view
+  - Modify the value of `Standoff Outer Diameter / mm` so that it's slightly larger than the standoff's outer diameter
+  - Export each layer of the case in the appropriate format
+- `harukapad` / `minoripad`:
+  - Open the `.kicad_pro` file - this will open the project view
+  - Open the `.kicad_sch` file - this will open the schematic view
+  - In the schematic view:
+    - Run the footprint assignment tool
+    - Find and highlight H1, H2, H3 and H4
+    - Change the mounting hole footprint to one that is slightly larger than the standoff's outer diameter
+    - Save the footprint assignments
+  - Open the `.kicad_pcb` file - this will open the PCB view
+  - In the PCB view:
+    - Update the PCB footprints from the schematic file
+    - Ensure that the centre of each hole remained the same
+    - Hide the H1, H2 etc. labels for the mounting holes
+    - Use the KiCad JLCPCB extension to generate the new Gerbers, BOM and CPL files
 
 ## Case
 
