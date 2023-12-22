@@ -1,5 +1,16 @@
 # Build Guide
 
+To build the keypad, you'll need:
+
+- [`Standard Parts`](#standard-parts) - screws, standoffs, rubber feet
+- [Case](#case) - laser cut acrylic pieces
+- One of the PCBs:
+  - [Harukapad](#harukapad-pcb-hall-effect-switches) if you're using hall effect mechanical switches
+  - [Minoripad](#minoripad-pcb-mechanical-switches) if you're using regular MX-style mechanical switches
+- Mechanical switches for your chosen PCB
+  - The Harukapad is compatible with Wooting Lekker and Gateron KS-20 hall effect mechanical switches
+  - The Minoripad is compatible with any MX-style mechanical switch
+
 ## Standard Parts
 
 It should be possible to find these parts from places like Amazon or electronics stores.
@@ -24,11 +35,9 @@ The case design uses a stacked acrylic sandwich mount with the following layers:
 
 Frosted acrylic was chosen for the bottom pieces and plate as it can diffuse the RGB underglow lighting better, though regular acrylic is fine as well.
 
-## PCB
+## Harukapad PCB (Hall Effect Switches)
 
-### Parts List
-
-The analog PCB currently uses these parts:
+The Harukapad PCB currently uses these parts:
 
 |               Component                |              Footprint              |   LCSC   |
 | :------------------------------------: | :---------------------------------: | :------: |
@@ -61,7 +70,35 @@ Some things to keep in mind for each component:
 - **Underglow RGB LEDs**: Any 50x50mm variant of the WS2812B that operates on 5V logic should work
 - **Switch SMD RGB LEDs**: Make sure that the LEDs have extruding pins which allow them to be reverse mounted
 
-### Ordering From JLCPCB (WIP)
+## Minoripad PCB (Mechanical Switches)
+
+The Minoripad PCB currently uses these parts:
+
+|               Component               |              Footprint              |   LCSC   |
+| :-----------------------------------: | :---------------------------------: | :------: |
+|            22pF  Capacitor            |          C_0402_1005Metric          |  C1555   |
+|            100nF Capacitor            |          C_0402_1005Metric          |  C1525   |
+|             1uF Capacitor             |          C_0402_1005Metric          |  C52923  |
+|            10uF Capacitor             |          C_0603_1608Metric          |  C19702  |
+|            27 Ohm Resistor            |          R_0402_1005Metric          |  C25100  |
+|            1k Ohm Resistor            |          R_0402_1005Metric          |  C11702  |
+|           5k1 Ohm Resistor            |          R_0402_1005Metric          |  C25905  |
+|      USB-C Receptable (USB 2.0)       | USB_C_Receptacle_HRO_TYPE-C-31-M-12 | C165948  |
+|         500mA Resettable Fuse         |        Fuse_1206_3216Metric         | C170165  |
+|       ESD Protection (SRV05-4)        |          SOT-23-6-routable          | C2836319 |
+| 3.3V Voltage Regulator (XC6206P332MR) |              SOT-23-3               |  C5446   |
+|       Microcontroller (RP2040)        | QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm |  C2040   |
+|             12MHz Crystal             |   Crystal_SMD_3225-4Pin_3.2x2.5mm   |  C9002   |
+|       16MB Flash (W25Q16JVSSIQ)       |     SOIC-8_5.23x5.23mm_P1.27mm      | C131025  |
+|         Kailh Hotswap Sockets         |             SW_MX_HS_1u             | C5156480 |
+|             Push Buttons              |           SW_SPST_TL3342            | C318884  |
+
+Some things to keep in mind for each component:
+
+- **22pF Capacitors**: These are used for the crystal; if you're using a different crystal, you'll need to recalculate the values
+- **Flash Memory**: Anything from Winbond's W25Q series should work; I've picked 16MB as it's more than enough for this project
+
+## Ordering From JLCPCB (WIP)
 
 - Use JLCPCB tool to generate required files
 - Upload Gerber `.zip` file
