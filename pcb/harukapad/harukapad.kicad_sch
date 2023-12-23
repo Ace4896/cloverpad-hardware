@@ -975,11 +975,11 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "MountingHole" (at 0 3.175 0)
+      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -991,16 +991,22 @@
       (property "ki_keywords" "mounting hole" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
+      (symbol "MountingHole_Pad_0_1"
+        (circle (center 0 1.27) (radius 1.27)
           (stroke (width 1.27) (type default))
           (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2559,7 +2565,7 @@
     (fill (type none))
     (uuid 3e1ef25e-ed59-4951-817d-8e63e56ac795)
   )
-  (rectangle (start 173.99 168.91) (end 256.54 176.53)
+  (rectangle (start 173.99 168.91) (end 256.54 181.61)
     (stroke (width 0) (type dash))
     (fill (type none))
     (uuid 3f9b09ce-8d8b-4cab-a4c0-369dbe3f1c0e)
@@ -2979,6 +2985,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 198.12 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0714a93b-83bc-4d82-bd02-20db40a57c23)
+    (property "Reference" "#PWR059" (at 198.12 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 198.12 180.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 198.12 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ddbe9262-b913-4ee7-b305-e023b57abeab))
+    (instances
+      (project "harukapad"
+        (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "harukapad"
+        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 266.7 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08fed0bd-fc34-4051-b475-d2d985f6984a)
@@ -3136,6 +3172,36 @@
       (project "harukapad"
         (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 218.44 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0bd6bf75-fc84-4a2a-aa5c-78087c440eae)
+    (property "Reference" "#PWR060" (at 218.44 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 218.44 180.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 218.44 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 218.44 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ed9a0220-2bb2-4acc-8510-e14e46eca4ba))
+    (instances
+      (project "harukapad"
+        (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "harukapad"
+        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -3571,7 +3637,7 @@
     (property "Value" "DRV5056A4xDBZxQ1" (at 180.34 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 186.69 44.45 0)
+    (property "Footprint" "Custom:KS-20-1U-DRV5056" (at 186.69 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5056.pdf" (at 186.69 44.45 0)
@@ -4081,8 +4147,8 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 198.12 172.72 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 198.12 172.72 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 4042b055-8cd5-45c3-8b66-af3f8f76e681)
     (property "Reference" "H2" (at 200.66 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4099,6 +4165,7 @@
     (property "LCSC" "" (at 198.12 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f024dbbb-b7be-47b7-a88f-e1aac20b080d))
     (instances
       (project "harukapad"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
@@ -4450,7 +4517,7 @@
     (property "Value" "DRV5056A4xDBZxQ1" (at 297.18 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 303.53 44.45 0)
+    (property "Footprint" "Custom:KS-20-1U-DRV5056" (at 303.53 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5056.pdf" (at 303.53 44.45 0)
@@ -4610,8 +4677,8 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 218.44 172.72 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 218.44 172.72 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 658307e2-21e1-49f4-a33b-c488e70ad3dd)
     (property "Reference" "H3" (at 220.98 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4628,6 +4695,7 @@
     (property "LCSC" "" (at 218.44 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 156f90b5-9c08-4f61-a282-01da348e8e18))
     (instances
       (project "harukapad"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
@@ -5097,7 +5165,7 @@
     (property "Value" "DRV5056A4xDBZxQ1" (at 238.76 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 245.11 44.45 0)
+    (property "Footprint" "Custom:KS-20-1U-DRV5056" (at 245.11 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5056.pdf" (at 245.11 44.45 0)
@@ -5667,6 +5735,36 @@
       (project "harukapad"
         (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "R15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 177.8 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b24923eb-e75c-435e-b77a-f25f17fbb9b2)
+    (property "Reference" "#PWR058" (at 177.8 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 177.8 180.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 177.8 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 177.8 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1ed61d97-d77a-46cf-9a34-1cfda21a515b))
+    (instances
+      (project "harukapad"
+        (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "harukapad"
+        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -6678,6 +6776,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 238.76 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f0d1aef1-5566-44e3-b023-3d80e43a756f)
+    (property "Reference" "#PWR061" (at 238.76 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 238.76 180.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 238.76 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 238.76 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid beb71f95-09ef-4d62-9032-6b0b72cdb9cb))
+    (instances
+      (project "harukapad"
+        (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "harukapad"
+        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 184.15 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f48eefa0-2952-4f39-be6c-3ff21630636e)
@@ -6768,7 +6896,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 177.8 172.72 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 177.8 172.72 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid f754c1da-3350-45e6-aaac-fa3494ee17ac)
     (property "Reference" "H1" (at 180.34 171.45 0)
@@ -6786,6 +6914,7 @@
     (property "LCSC" "" (at 177.8 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid a18cd808-c458-4edf-98e2-47cda131fdbd))
     (instances
       (project "harukapad"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
@@ -6800,8 +6929,8 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 238.76 172.72 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 238.76 172.72 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid fae9e0fa-9728-46dd-8fbf-fb5c1006cf8a)
     (property "Reference" "H4" (at 241.3 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6818,6 +6947,7 @@
     (property "LCSC" "" (at 238.76 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 7b64755d-acd5-4224-b5fa-7f63472db9b7))
     (instances
       (project "harukapad"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
