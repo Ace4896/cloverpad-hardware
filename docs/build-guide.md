@@ -1,15 +1,17 @@
 # Build Guide
 
+**TODO**: Needs updating to match the new 3D printed case design
+
 To build the keypad, you'll need:
 
-- [`Standard Parts`](#standard-parts) - screws, standoffs, rubber feet
-- [Case](#case) - laser cut acrylic pieces
+- [`Standard Parts`](#standard-parts) - screws, rubber feet
+- [Case](#case) - 3D printed case
 - One of the PCBs:
-  - [Harukapad](#harukapad-pcb-hall-effect-switches) if you're using hall effect mechanical switches
-  - [Minoripad](#minoripad-pcb-mechanical-switches) if you're using regular MX-style mechanical switches
+  - [Cloverpad HE](#cloverpad-he-pcb-hall-effect-switches) if you're using hall effect mechanical switches
+  - [Cloverpad MX](#cloverpad-mx-pcb-mechanical-switches) if you're using regular MX-style mechanical switches
 - Mechanical switches for your chosen PCB
-  - The Harukapad is compatible with Wooting Lekker and Gateron KS-20 hall effect mechanical switches
-  - The Minoripad is compatible with any MX-style mechanical switch
+  - The Cloverpad HE is compatible with Wooting Lekker and Gateron KS-20 hall effect mechanical switches
+  - The Cloverpad MX is compatible with any MX-style mechanical switch
 
 ## Standard Parts
 
@@ -29,7 +31,7 @@ If you do need to modify the mounting hole diameter, there are a few things to c
   - In the tree view on the left, open `parameters` - this will open the spreadsheet view
   - Modify the value of `Standoff Outer Diameter / mm` so that it's slightly larger than the standoff's outer diameter
   - Export each layer of the case in the appropriate format
-- `harukapad` / `minoripad`:
+- `cloverpad-he` / `cloverpad-mx`:
   - Open the `.kicad_pro` file - this will open the project view
   - Open the `.kicad_sch` file - this will open the schematic view
   - In the schematic view:
@@ -57,9 +59,9 @@ The case design uses a stacked acrylic sandwich mount with the following layers:
 
 Frosted acrylic was chosen for the bottom pieces and plate as it can diffuse the RGB underglow lighting better, though regular acrylic is fine as well.
 
-## Harukapad PCB (Hall Effect Switches)
+## Cloverpad HE PCB (Hall Effect Switches)
 
-The Harukapad PCB currently uses these parts:
+The Cloverpad HE PCB currently uses these parts:
 
 |               Component                |              Footprint              |   LCSC   |
 | :------------------------------------: | :---------------------------------: | :------: |
@@ -92,9 +94,9 @@ Some things to keep in mind for each component:
 - **Underglow RGB LEDs**: Any 50x50mm variant of the WS2812B that operates on 5V logic should work
 - **Switch SMD RGB LEDs**: Make sure that the LEDs have extruding pins which allow them to be reverse mounted
 
-## Minoripad PCB (Mechanical Switches)
+## Cloverpad MX PCB (Mechanical Switches)
 
-The Minoripad PCB currently uses these parts:
+The Cloverpad MX PCB currently uses these parts:
 
 |               Component               |              Footprint              |   LCSC   |
 | :-----------------------------------: | :---------------------------------: | :------: |
