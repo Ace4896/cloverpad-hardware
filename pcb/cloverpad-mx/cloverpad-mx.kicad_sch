@@ -2395,11 +2395,6 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR010") (unit 1)
-        )
-      )
     )
   )
 
@@ -2423,11 +2418,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR057") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -2459,11 +2449,6 @@
           (reference "C21") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C21") (unit 1)
-        )
-      )
     )
   )
 
@@ -2486,11 +2471,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "#PWR021") (unit 1)
         )
       )
@@ -2523,11 +2503,6 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "SW1") (unit 1)
-        )
-      )
     )
   )
 
@@ -2551,11 +2526,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR041") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -2584,11 +2554,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C25") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C25") (unit 1)
         )
       )
@@ -2622,11 +2587,6 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "U2") (unit 1)
-        )
-      )
     )
   )
 
@@ -2652,11 +2612,6 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR02") (unit 1)
-        )
-      )
     )
   )
 
@@ -2679,11 +2634,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "#PWR013") (unit 1)
         )
       )
@@ -2716,11 +2666,6 @@
           (reference "R12") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R14") (unit 1)
-        )
-      )
     )
   )
 
@@ -2747,11 +2692,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C13") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C13") (unit 1)
         )
       )
@@ -2784,11 +2724,6 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R16") (unit 1)
-        )
-      )
     )
   )
 
@@ -2815,11 +2750,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C18") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C18") (unit 1)
         )
       )
@@ -2854,11 +2784,6 @@
           (reference "Y1") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "Y1") (unit 1)
-        )
-      )
     )
   )
 
@@ -2884,11 +2809,6 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR06") (unit 1)
-        )
-      )
     )
   )
 
@@ -2911,11 +2831,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "#PWR012") (unit 1)
         )
       )
@@ -3002,11 +2917,6 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C4") (unit 1)
-        )
-      )
     )
   )
 
@@ -3036,11 +2946,6 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R12") (unit 1)
-        )
-      )
     )
   )
 
@@ -3053,7 +2958,7 @@
     (property "Value" "Mounting Hole" (at 92.71 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad" (at 90.17 113.03 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 90.17 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 113.03 0)
@@ -3067,11 +2972,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "H2") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "H5") (unit 1)
         )
       )
     )
@@ -3107,11 +3007,6 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "U1") (unit 1)
-        )
-      )
     )
   )
 
@@ -3138,11 +3033,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "F1") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "F1") (unit 1)
         )
       )
@@ -3204,11 +3094,6 @@
           (reference "R9") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R11") (unit 1)
-        )
-      )
     )
   )
 
@@ -3259,11 +3144,6 @@
           (reference "#PWR032") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR036") (unit 1)
-        )
-      )
     )
   )
 
@@ -3286,11 +3166,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "#PWR011") (unit 1)
         )
       )
@@ -3323,11 +3198,6 @@
           (reference "C19") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C19") (unit 1)
-        )
-      )
     )
   )
 
@@ -3340,7 +3210,7 @@
     (property "Value" "Mounting Hole" (at 113.03 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad" (at 110.49 113.03 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 110.49 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 113.03 0)
@@ -3354,11 +3224,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "H3") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "H6") (unit 1)
         )
       )
     )
@@ -3384,11 +3249,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3420,11 +3280,6 @@
           (reference "C17") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C17") (unit 1)
-        )
-      )
     )
   )
 
@@ -3450,11 +3305,6 @@
           (reference "#PWR038") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR044") (unit 1)
-        )
-      )
     )
   )
 
@@ -3477,11 +3327,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -3514,11 +3359,6 @@
           (reference "C20") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C20") (unit 1)
-        )
-      )
     )
   )
 
@@ -3544,11 +3384,6 @@
           (reference "#PWR048") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR054") (unit 1)
-        )
-      )
     )
   )
 
@@ -3572,11 +3407,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR056") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -3608,11 +3438,6 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R13") (unit 1)
-        )
-      )
     )
   )
 
@@ -3639,11 +3464,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C12") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C12") (unit 1)
         )
       )
@@ -3697,11 +3517,6 @@
           (reference "#PWR020") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR020") (unit 1)
-        )
-      )
     )
   )
 
@@ -3727,11 +3542,6 @@
           (reference "#PWR053") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR059") (unit 1)
-        )
-      )
     )
   )
 
@@ -3755,11 +3565,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR09") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3791,11 +3596,6 @@
           (reference "C28") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C28") (unit 1)
-        )
-      )
     )
   )
 
@@ -3821,11 +3621,6 @@
           (reference "#PWR039") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR045") (unit 1)
-        )
-      )
     )
   )
 
@@ -3849,11 +3644,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR049") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -3882,11 +3672,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C5") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C5") (unit 1)
         )
       )
@@ -3919,11 +3704,6 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C14") (unit 1)
-        )
-      )
     )
   )
 
@@ -3953,11 +3733,6 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R2") (unit 1)
-        )
-      )
     )
   )
 
@@ -3981,11 +3756,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR045") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -4013,11 +3783,6 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR056") (unit 1)
-        )
-      )
     )
   )
 
@@ -4041,11 +3806,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR033") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4074,11 +3834,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C24") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C24") (unit 1)
         )
       )
@@ -4111,11 +3866,6 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R1") (unit 1)
-        )
-      )
     )
   )
 
@@ -4143,11 +3893,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "R13") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R15") (unit 1)
         )
       )
     )
@@ -4179,11 +3924,6 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "R9") (unit 1)
-        )
-      )
     )
   )
 
@@ -4213,11 +3953,6 @@
           (reference "C23") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C23") (unit 1)
-        )
-      )
     )
   )
 
@@ -4241,11 +3976,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR042") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -4281,11 +4011,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "U9") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "U11") (unit 1)
         )
       )
     )
@@ -4346,11 +4071,6 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C16") (unit 1)
-        )
-      )
     )
   )
 
@@ -4374,11 +4094,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR030") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4465,11 +4180,6 @@
           (reference "U8") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "U10") (unit 1)
-        )
-      )
     )
   )
 
@@ -4495,11 +4205,6 @@
           (reference "#PWR07") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR037") (unit 1)
-        )
-      )
     )
   )
 
@@ -4523,11 +4228,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR031") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4556,11 +4256,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "C22") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "C22") (unit 1)
         )
       )
@@ -4593,11 +4288,6 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "C15") (unit 1)
-        )
-      )
     )
   )
 
@@ -4621,11 +4311,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "#PWR014") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4672,11 +4357,6 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "J1") (unit 1)
-        )
-      )
     )
   )
 
@@ -4702,11 +4382,6 @@
           (reference "#PWR055") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "#PWR061") (unit 1)
-        )
-      )
     )
   )
 
@@ -4719,7 +4394,7 @@
     (property "Value" "Mounting Hole" (at 72.39 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad" (at 69.85 113.03 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 69.85 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 69.85 113.03 0)
@@ -4735,11 +4410,6 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "H4") (unit 1)
-        )
-      )
     )
   )
 
@@ -4752,7 +4422,7 @@
     (property "Value" "Mounting Hole" (at 133.35 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad" (at 130.81 113.03 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad" (at 130.81 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 113.03 0)
@@ -4766,11 +4436,6 @@
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
           (reference "H4") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
-          (reference "H7") (unit 1)
         )
       )
     )
@@ -4799,11 +4464,6 @@
     (instances
       (project "cloverpad-mx"
         (path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-          (reference "SW2") (unit 1)
-        )
-      )
-      (project "cloverpad-mx"
-        (path "/fe0c1c23-b294-4653-a8db-85682224ef67"
           (reference "SW2") (unit 1)
         )
       )
