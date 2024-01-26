@@ -18,7 +18,7 @@ Make sure you have the following things installed:
 Clone the repository with submodules:
 
 ```bash
-git clone --recurse-submodules git@github.com:Ace4896/cloverpad-hardware.git
+git clone --recurse-submodules git@github.com:Cloverpad/cloverpad-hardware.git
 ```
 
 Then follow the [build guide](./docs/build-guide.md), which will reference various project files from these folders:
