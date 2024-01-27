@@ -33,9 +33,10 @@ fp-info-cache
 
 # KiCad JLCPCB Tools
 # https://github.com/Bouni/kicad-jlcpcb-tools
-# Ignore auto-generated files, but retain the project file
+# Ignore auto-generated files, but retain any project files
 **/*/jlcpcb/*
 !**/*/jlcpcb/project.db
+!**/*/jlcpcb/rotations.csv
 
 ## FreeCAD
 *.pyc
