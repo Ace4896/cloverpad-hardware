@@ -1,3 +1,3 @@
 [submodule "case/minimal-pcb/cherry-mx-switch"]
-	path = case/minimal-pcb/cherry-mx-switch
+	path = case/rev1/minimal-pcb/cherry-mx-switch
 	url = https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch.git
