@@ -4,7 +4,10 @@
 
 This folder contains the hardware designs for the Cloverpad rev. 1.
 
-... picture of keypad ...
+<img src="./img/case-front.jpg" alt="Case Front" width="256" />
+<img src="./img/pcb-front.jpg" alt="PCB Front" width="256" />
+
+[Photo Gallery](./img)
 
 Features:
 
