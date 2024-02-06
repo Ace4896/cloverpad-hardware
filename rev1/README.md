@@ -13,6 +13,14 @@ Features:
 - Cloverpad MX supports hot-swappable MX-style digital switches
 - 3D printed case w/ threaded inserts
 
+Required parts (for reference):
+
+- 3D printed case + PCB
+- USB Type-C cable
+- 8x M2x6mm screws
+- 8x M2x3mm threaded inserts
+- Rubber feet
+
 ## Design Files
 
 - [`cloverpad-case.FCStd`](./cloverpad-case.FCStd): FreeCAD 0.21 project for the 3D printed case.
