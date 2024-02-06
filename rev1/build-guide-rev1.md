@@ -1,4 +1,4 @@
-# Build Guide
+# Build Guide for Cloverpad rev. 1
 
 **TODO**: Needs updating to match the new 3D printed case design
 
