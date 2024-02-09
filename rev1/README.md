@@ -33,13 +33,15 @@ Required parts (for reference):
 
 ## Known Issues
 
-There are two major flaws with this design:
+There are a few major flaws with this design
 
 - When installing threaded inserts into the top/bottom pieces, the walls surrounding the threaded insert can crack
   - This is due to the supporting walls being too thin and/or the blind hole being too shallow
 - On the Cloverpad MX PCB, it's impossible to solder switches directly to the PCB while the PCB is screwed in
   - This is an oversight that I completely missed; as a result, it only works in a hotswap configuration
   - Note that Mill-Max sockets are not compatible, as the holes for the switch pins are wider to accommodate for Kailh hotswap sockets
+- There is a chance that the manufactured PCB won't boot into the flashed firmware, and infinitely boots into bootloader mode
+  - Not sure what could cause this - faulty flash chip, bad reset / boot select circuit design, manufacturing error or user error
 
 Rev. 2 will address these by:
 
@@ -47,6 +49,7 @@ Rev. 2 will address these by:
   - To keep the case size small, the PCB screws need to be moved inwards slightly
 - Moving all threaded inserts to the top pieces
   - This will allow direct soldering instead of hotswap for the Cloverpad MX
+- Adjusting the routing around the boot select circuit and flash chip
 
 ## Other Potential Improvements
 
