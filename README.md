@@ -16,7 +16,7 @@ There are two PCB variants for this keypad:
 Make sure you have the following things installed:
 
 - [FreeCAD 0.21](https://www.freecad.org/)
-- [KiCad 7](https://www.kicad.org/) with the following plugins:
+- [KiCad 8](https://www.kicad.org/) with the following plugins:
   - [marbastlib Keyboard Footprints](https://github.com/ebastler/marbastlib)
   - [KiCad JLCPCB Tools](https://github.com/Bouni/kicad-jlcpcb-tools) (if you're using JLC for manufacturing the PCB)
 

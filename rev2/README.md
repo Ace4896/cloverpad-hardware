@@ -22,5 +22,5 @@ Required parts (for reference):
 ## Design Files
 
 - [`cloverpad-case.FCStd`](./cloverpad-case.FCStd): FreeCAD 0.21 project for the 3D printed case.
-- [`cloverpad-he-pcb`](./cloverpad-he-pcb): KiCad 7 project for the Cloverpad HE rev. 2 PCB.
-- [`cloverpad-mx-pcb`](./cloverpad-mx-pcb): KiCad 7 project for the Cloverpad MX rev. 2 PCB.
+- [`cloverpad-he-pcb`](./cloverpad-he-pcb): KiCad 8 project for the Cloverpad HE rev. 2 PCB.
+- [`cloverpad-mx-pcb`](./cloverpad-mx-pcb): KiCad 8 project for the Cloverpad MX rev. 2 PCB.
