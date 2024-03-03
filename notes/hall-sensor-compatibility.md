@@ -23,11 +23,12 @@ This means that the hall sensor used needs to have the following properties:
 - (Ideally) Unipolar i.e. reacts to only one pole / field direction
   - Technically, we can use a bipolar sensor that reacts to both poles, but we lose half of the resolution to a range of values that we won't use
 
-The DRV5056A4 was chosen as it meets most of this criteria:
+The DRV5056A3 was chosen as it meets most of the criteria:
 
 - Has a variant that can detect positive fields
 - Generates a linear output
-- Has a magnetic range of 155mT (1550G) at 3.3V
+- Has a magnetic range of 78mT (780G) at 3.3V
+  - Technically, this range is not large enough, but in the ideal case, we'd only lose the last 0.2mm of travel on average, which makes this viable in practice
 - Is unipolar
 
-I had originally chosen the DRV5056A3, which is the same as the A4 aside from the magnetic range (78mT at 3.3V). While it would be compatible, [the calculations](./notebooks/magnet-distance.ipynb) showed that we'd lose the last 0.2mm of travel on average.
+The DRV5056A4 would also work and be able to track the entire keystroke, but its reduced resolution means that 0.1mm precision is harder to achieve, especially at the top of the keystroke where the ADC values are smaller.

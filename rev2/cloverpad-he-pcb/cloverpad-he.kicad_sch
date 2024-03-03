@@ -701,7 +701,7 @@
 				)
 			)
 		)
-		(symbol "Custom:DRV5056A4xDBZxQ1"
+		(symbol "Custom:DRV5056AxxDBZxQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -713,7 +713,7 @@
 					)
 				)
 			)
-			(property "Value" "DRV5056A4xDBZxQ1"
+			(property "Value" "DRV5056AxxDBZxQ1"
 				(at 2.54 10.16 0)
 				(effects
 					(font
@@ -739,7 +739,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50 mV/mT, 158-mT, 20-kHz, 3.3/5V, SOT-23"
+			(property "Description" "20/39/79/158-mT, 20-kHz, 3.3/5V, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -766,7 +766,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV5056A4xDBZxQ1_1_1"
+			(symbol "DRV5056AxxDBZxQ1_1_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -7930,7 +7930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:DRV5056A4xDBZxQ1")
+		(lib_id "Custom:DRV5056AxxDBZxQ1")
 		(at 189.23 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7940,7 +7940,7 @@
 		(fields_autoplaced yes)
 		(uuid "244c552a-e316-4147-b693-8de8ef482559")
 		(property "Reference" "U3"
-			(at 182.88 157.48 0)
+			(at 182.88 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,8 +7948,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DRV5056A4xDBZxQ1"
-			(at 182.88 160.02 0)
+		(property "Value" "DRV5056AxxDBZxQ1"
+			(at 182.88 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +7957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom:KS-20-1U-DRV5056"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 189.23 158.75 0)
 			(effects
 				(font
@@ -7975,7 +7975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20/39/79/158-mT, 20-kHz, 3.3/5V, SOT-23"
 			(at 189.23 158.75 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2152902"
+		(property "LCSC" "C2152965"
 			(at 189.23 158.75 0)
 			(effects
 				(font
@@ -9513,7 +9513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:DRV5056A4xDBZxQ1")
+		(lib_id "Custom:DRV5056AxxDBZxQ1")
 		(at 306.07 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9523,7 +9523,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa1b48d-7e1d-4fce-9d4b-9e46b1348b1a")
 		(property "Reference" "U5"
-			(at 299.72 157.48 0)
+			(at 299.72 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,8 +9531,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DRV5056A4xDBZxQ1"
-			(at 299.72 160.02 0)
+		(property "Value" "DRV5056AxxDBZxQ1"
+			(at 299.72 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +9540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom:KS-20-1U-DRV5056"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 306.07 158.75 0)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20/39/79/158-mT, 20-kHz, 3.3/5V, SOT-23"
 			(at 306.07 158.75 0)
 			(effects
 				(font
@@ -9567,7 +9567,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2152902"
+		(property "LCSC" "C2152965"
 			(at 306.07 158.75 0)
 			(effects
 				(font
@@ -10736,7 +10736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:DRV5056A4xDBZxQ1")
+		(lib_id "Custom:DRV5056AxxDBZxQ1")
 		(at 247.65 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10746,7 +10746,7 @@
 		(fields_autoplaced yes)
 		(uuid "88b89658-ef78-4ac7-8dfd-f37bbb9573bd")
 		(property "Reference" "U4"
-			(at 241.3 157.48 0)
+			(at 241.3 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,8 +10754,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DRV5056A4xDBZxQ1"
-			(at 241.3 160.02 0)
+		(property "Value" "DRV5056AxxDBZxQ1"
+			(at 241.3 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,7 +10763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom:KS-20-1U-DRV5056"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -10781,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20/39/79/158-mT, 20-kHz, 3.3/5V, SOT-23"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -10790,7 +10790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2152902"
+		(property "LCSC" "C2152965"
 			(at 247.65 158.75 0)
 			(effects
 				(font
