@@ -9,7 +9,7 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -17,21 +17,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -52,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -191,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -392,7 +390,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -3828,9 +3826,9 @@
 		)
 		(symbol "power:+1V1"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3928,8 +3926,8 @@
 			(symbol "+1V1_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+1V1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3948,9 +3946,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4048,8 +4046,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4068,9 +4066,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4168,8 +4166,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4188,9 +4186,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4264,8 +4262,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4284,9 +4282,9 @@
 		)
 		(symbol "power:VBUS"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4300,7 +4298,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4384,8 +4382,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4684,16 +4682,132 @@
 		(uuid "00e6221b-7f56-4adb-923c-a7f985873342")
 	)
 	(no_connect
+		(at 87.63 138.43)
+		(uuid "0fcbec14-a5cd-4964-9df9-47a9ea5e6b61")
+	)
+	(no_connect
+		(at 87.63 146.05)
+		(uuid "10d109ae-7a3f-4834-ac0c-ac986044a7cd")
+	)
+	(no_connect
+		(at 87.63 201.93)
+		(uuid "1ab0bd38-2cbd-41c9-a666-2d6b04b87433")
+	)
+	(no_connect
 		(at 44.45 58.42)
 		(uuid "2ccdf4c7-f187-4504-9e39-da8517bb347b")
+	)
+	(no_connect
+		(at 36.83 194.31)
+		(uuid "2f164a19-bf80-4b5c-8292-d7586d701d85")
+	)
+	(no_connect
+		(at 87.63 173.99)
+		(uuid "34fb785a-d759-4bb1-921f-6fb6a5778c67")
+	)
+	(no_connect
+		(at 87.63 171.45)
+		(uuid "3577981c-d2f1-4d9a-8cf2-3a93e4b6fe47")
+	)
+	(no_connect
+		(at 87.63 181.61)
+		(uuid "3d21127f-1d4a-411c-aea7-39e43ea24ca6")
+	)
+	(no_connect
+		(at 87.63 184.15)
+		(uuid "4b91756e-918e-4c31-8897-c97bfbb37caa")
+	)
+	(no_connect
+		(at 87.63 151.13)
+		(uuid "527b6ce6-d1bc-4884-8784-74e118d484fe")
+	)
+	(no_connect
+		(at 87.63 133.35)
+		(uuid "5dca7f3d-956b-44aa-8aad-8d13ef3f94aa")
+	)
+	(no_connect
+		(at 87.63 153.67)
+		(uuid "638ea9b0-28c6-4e5b-a6fa-d4929a098ab5")
+	)
+	(no_connect
+		(at 87.63 176.53)
+		(uuid "64086e3b-5723-4408-9b2c-da5cec34d7a0")
+	)
+	(no_connect
+		(at 87.63 166.37)
+		(uuid "6702691a-4f43-49db-b225-fe2f3ed68aba")
+	)
+	(no_connect
+		(at 87.63 125.73)
+		(uuid "6f63e36b-ca8d-4d77-9c05-93bb8454e108")
+	)
+	(no_connect
+		(at 87.63 140.97)
+		(uuid "708cfc1f-de35-4912-86c7-e5c275d6bf06")
+	)
+	(no_connect
+		(at 87.63 158.75)
+		(uuid "7d09a8a0-ecdc-4a63-acc1-4180b08ccf9c")
 	)
 	(no_connect
 		(at 44.45 55.88)
 		(uuid "87790284-9d07-4559-b181-a5840e299d67")
 	)
 	(no_connect
+		(at 87.63 161.29)
+		(uuid "9390063e-2783-4599-b84a-3fd6129a4ff3")
+	)
+	(no_connect
+		(at 87.63 128.27)
+		(uuid "9d694a45-b45f-4366-9469-1fa8393ffe7b")
+	)
+	(no_connect
+		(at 87.63 130.81)
+		(uuid "a0ea89dd-b56f-4f04-b8b2-410c58f04bbf")
+	)
+	(no_connect
+		(at 87.63 179.07)
+		(uuid "adaa7eda-9a4b-4e11-95a8-88b6163b1db5")
+	)
+	(no_connect
 		(at 99.06 45.72)
 		(uuid "afb485a1-5a52-4cd4-8766-59ae04f6fc2d")
+	)
+	(no_connect
+		(at 87.63 143.51)
+		(uuid "b4801e31-9366-4b71-a459-7eb37bbed9a6")
+	)
+	(no_connect
+		(at 87.63 189.23)
+		(uuid "bcfbf517-0092-421b-a688-a174c7038895")
+	)
+	(no_connect
+		(at 87.63 135.89)
+		(uuid "bd132b51-0a38-420e-afe8-870a9ab69400")
+	)
+	(no_connect
+		(at 87.63 168.91)
+		(uuid "cf090fd0-beb1-4e8a-a8ef-7dc875389f0e")
+	)
+	(no_connect
+		(at 87.63 163.83)
+		(uuid "d06d6e72-30df-4e91-87e9-5c863231ea7e")
+	)
+	(no_connect
+		(at 87.63 148.59)
+		(uuid "d71252cf-42dd-4e1b-8e06-1e2dd6257f43")
+	)
+	(no_connect
+		(at 87.63 186.69)
+		(uuid "ddba9741-8b38-4870-b255-4c29ee1610df")
+	)
+	(no_connect
+		(at 87.63 156.21)
+		(uuid "f3eca416-0a52-4f6a-bb26-5c04e4f2d87f")
+	)
+	(no_connect
+		(at 36.83 191.77)
+		(uuid "f7a2ca42-f0c6-4e33-890a-b6c5b4bc045b")
 	)
 	(wire
 		(pts
@@ -6457,28 +6571,6 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 36.83 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9b5ad9a-7587-4ba5-8703-4be2b40a40e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.6158 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HS0"
 		(shape input)
 		(at 213.36 158.75 0)
@@ -6497,28 +6589,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWD"
-		(shape input)
-		(at 36.83 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c43b28af-73f3-4c31-8b78-5eedfdf1d7f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9139 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6766,7 +6836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 269.24 166.37 0)
 			(effects
 				(font
@@ -6832,7 +6902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 35.56 0)
 			(effects
 				(font
@@ -6898,7 +6968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -6938,7 +7008,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 271.78 165.0936 0)
 			(effects
 				(font
@@ -6965,7 +7035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 269.24 163.83 0)
 			(effects
 				(font
@@ -7016,7 +7086,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 194.3163 142.24 90)
 			(effects
 				(font
@@ -7042,7 +7112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 194.31 146.05 0)
 			(effects
 				(font
@@ -7120,7 +7190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 209.55 0)
 			(effects
 				(font
@@ -7160,7 +7230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 123.19 92.7163 0)
 			(effects
 				(font
@@ -7187,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -7265,7 +7335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 209.55 116.84 0)
 			(effects
 				(font
@@ -7331,7 +7401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -7395,7 +7465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 173.99 93.98 0)
 			(effects
 				(font
@@ -7447,7 +7517,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 213.36 165.0936 0)
 			(effects
 				(font
@@ -7474,7 +7544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 210.82 163.83 0)
 			(effects
 				(font
@@ -7552,7 +7622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 130.81 0)
 			(effects
 				(font
@@ -7591,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "C_Small"
 			(at 118.1037 133.35 90)
 			(effects
 				(font
@@ -7617,7 +7687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 127 0)
 			(effects
 				(font
@@ -7695,7 +7765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 203.2 146.05 0)
 			(effects
 				(font
@@ -7734,7 +7804,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206P332MR"
+		(property "Value" "XC6206PxxxMR"
 			(at 128.27 39.37 0)
 			(effects
 				(font
@@ -7761,7 +7831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 			(at 128.27 43.18 0)
 			(effects
 				(font
@@ -7842,7 +7912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 210.82 166.37 0)
 			(effects
 				(font
@@ -7908,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 62.23 27.94 0)
 			(effects
 				(font
@@ -8056,7 +8126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -8096,7 +8166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "R_Small"
 			(at 186.69 88.9 0)
 			(effects
 				(font
@@ -8123,7 +8193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -8175,7 +8245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 31.75 92.7163 0)
 			(effects
 				(font
@@ -8202,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 29.21 91.44 0)
 			(effects
 				(font
@@ -8252,7 +8322,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R_Small"
 			(at 231.14 102.87 90)
 			(effects
 				(font
@@ -8278,7 +8348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -8330,7 +8400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 88.9 92.7163 0)
 			(effects
 				(font
@@ -8357,7 +8427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -8435,7 +8505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 303.53 168.91 0)
 			(effects
 				(font
@@ -8473,7 +8543,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "Crystal_GND24"
 			(at 128.27 116.84 90)
 			(effects
 				(font
@@ -8499,7 +8569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 128.27 123.19 0)
 			(effects
 				(font
@@ -8583,7 +8653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 86.36 30.48 0)
 			(effects
 				(font
@@ -8649,7 +8719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -8689,7 +8759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 114.3 48.2663 0)
 			(effects
 				(font
@@ -8716,7 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -8767,7 +8837,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 252.7363 142.24 90)
 			(effects
 				(font
@@ -8793,7 +8863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -8845,7 +8915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "R_Small"
 			(at 240.03 83.82 0)
 			(effects
 				(font
@@ -8872,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 237.49 82.55 0)
 			(effects
 				(font
@@ -8923,7 +8993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mounting Hole"
+		(property "Value" "MountingHole_Pad"
 			(at 191.77 115.57 0)
 			(effects
 				(font
@@ -8950,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 189.23 114.3 0)
 			(effects
 				(font
@@ -9026,7 +9096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
 			(at 86.36 43.18 0)
 			(effects
 				(font
@@ -9089,7 +9159,7 @@
 				)
 			)
 		)
-		(property "Value" "500mA"
+		(property "Value" "Polyfuse_Small"
 			(at 54.61 24.13 90)
 			(effects
 				(font
@@ -9116,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 54.61 27.94 0)
 			(effects
 				(font
@@ -9166,7 +9236,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R_Small"
 			(at 203.2 161.29 90)
 			(effects
 				(font
@@ -9192,7 +9262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 203.2 158.75 0)
 			(effects
 				(font
@@ -9244,7 +9314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 330.2 165.0936 0)
 			(effects
 				(font
@@ -9271,7 +9341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 327.66 163.83 0)
 			(effects
 				(font
@@ -9321,7 +9391,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "R_Small"
 			(at 30.48 130.81 90)
 			(effects
 				(font
@@ -9347,7 +9417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 30.48 133.35 0)
 			(effects
 				(font
@@ -9425,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 245.11 168.91 0)
 			(effects
 				(font
@@ -9491,7 +9561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -9639,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -9679,7 +9749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 100.33 92.7163 0)
 			(effects
 				(font
@@ -9706,7 +9776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -9757,7 +9827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mounting Hole"
+		(property "Value" "MountingHole_Pad"
 			(at 212.09 115.57 0)
 			(effects
 				(font
@@ -9784,7 +9854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 209.55 114.3 0)
 			(effects
 				(font
@@ -9833,7 +9903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 77.47 92.7163 0)
 			(effects
 				(font
@@ -9860,7 +9930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -9938,7 +10008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -10004,7 +10074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 327.66 166.37 0)
 			(effects
 				(font
@@ -10070,7 +10140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 46.99 27.94 0)
 			(effects
 				(font
@@ -10110,7 +10180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 111.76 92.7163 0)
 			(effects
 				(font
@@ -10137,7 +10207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -10215,7 +10285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -10281,7 +10351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 129.54 177.8 0)
 			(effects
 				(font
@@ -10320,7 +10390,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "R_Small"
 			(at 30.48 140.97 90)
 			(effects
 				(font
@@ -10346,7 +10416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 30.48 135.89 0)
 			(effects
 				(font
@@ -10398,7 +10468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 21.59 92.7163 0)
 			(effects
 				(font
@@ -10425,7 +10495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 19.05 91.44 0)
 			(effects
 				(font
@@ -10503,7 +10573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 55.88 0)
 			(effects
 				(font
@@ -10569,7 +10639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 129.54 152.4 0)
 			(effects
 				(font
@@ -10635,7 +10705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 303.53 143.51 0)
 			(effects
 				(font
@@ -10675,7 +10745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 147.32 156.2163 0)
 			(effects
 				(font
@@ -10702,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 144.78 154.94 0)
 			(effects
 				(font
@@ -10862,7 +10932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 64.77 118.11 0)
 			(effects
 				(font
@@ -10928,7 +10998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -10968,7 +11038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 142.24 48.2663 0)
 			(effects
 				(font
@@ -10995,7 +11065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 139.7 46.99 0)
 			(effects
 				(font
@@ -11047,7 +11117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 41.91 92.7163 0)
 			(effects
 				(font
@@ -11074,7 +11144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 39.37 91.44 0)
 			(effects
 				(font
@@ -11125,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "R_Small"
 			(at 52.07 38.1 90)
 			(effects
 				(font
@@ -11151,7 +11221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -11229,7 +11299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 237.49 80.01 0)
 			(effects
 				(font
@@ -11295,7 +11365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 97.79 0)
 			(effects
 				(font
@@ -11360,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -11399,7 +11469,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "C_Small"
 			(at 118.1163 115.57 90)
 			(effects
 				(font
@@ -11425,7 +11495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 119.38 0)
 			(effects
 				(font
@@ -11475,7 +11545,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "R_Small"
 			(at 52.07 30.48 90)
 			(effects
 				(font
@@ -11501,7 +11571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -11579,7 +11649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 245.11 143.51 0)
 			(effects
 				(font
@@ -11619,7 +11689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "R_Small"
 			(at 240.03 92.71 0)
 			(effects
 				(font
@@ -11646,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 237.49 91.44 0)
 			(effects
 				(font
@@ -11724,7 +11794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 116.84 0)
 			(effects
 				(font
@@ -11762,7 +11832,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R_Small"
 			(at 138.43 132.08 90)
 			(effects
 				(font
@@ -11788,7 +11858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 138.43 127 0)
 			(effects
 				(font
@@ -11866,7 +11936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 186.69 143.51 0)
 			(effects
 				(font
@@ -11906,7 +11976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 146.05 92.7163 0)
 			(effects
 				(font
@@ -11933,7 +12003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -12011,7 +12081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 320.04 146.05 0)
 			(effects
 				(font
@@ -12050,7 +12120,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 311.1563 142.24 90)
 			(effects
 				(font
@@ -12076,7 +12146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 311.15 146.05 0)
 			(effects
 				(font
@@ -12154,7 +12224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 130.81 0)
 			(effects
 				(font
@@ -12194,7 +12264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q16JVSSIQ"
+		(property "Value" "W25Q128JVS"
 			(at 138.43 166.37 0)
 			(effects
 				(font
@@ -12221,7 +12291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 129.54 165.1 0)
 			(effects
 				(font
@@ -12289,7 +12359,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R_Small"
 			(at 320.04 161.29 90)
 			(effects
 				(font
@@ -12315,7 +12385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 320.04 158.75 0)
 			(effects
 				(font
@@ -12367,7 +12437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 67.31 92.7163 0)
 			(effects
 				(font
@@ -12394,7 +12464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -12472,7 +12542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 19.05 88.9 0)
 			(effects
 				(font
@@ -12539,7 +12609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "A microcontroller by Raspberry Pi"
 			(at 62.23 163.83 0)
 			(effects
 				(font
@@ -12782,7 +12852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 261.62 146.05 0)
 			(effects
 				(font
@@ -12848,7 +12918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -12888,7 +12958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 134.62 92.7163 0)
 			(effects
 				(font
@@ -12915,7 +12985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -12967,7 +13037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "C_Small"
 			(at 55.88 92.7163 0)
 			(effects
 				(font
@@ -12994,7 +13064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -13028,7 +13098,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 29.21 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13045,7 +13115,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 29.21 22.86 0)
 			(effects
 				(font
@@ -13071,7 +13141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -13166,7 +13236,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R_Small"
 			(at 261.62 161.29 90)
 			(effects
 				(font
@@ -13192,7 +13262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 261.62 158.75 0)
 			(effects
 				(font
@@ -13270,7 +13340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 116.84 0)
 			(effects
 				(font
@@ -13336,7 +13406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 186.69 168.91 0)
 			(effects
 				(font
@@ -13402,7 +13472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 157.48 0)
 			(effects
 				(font
@@ -13441,7 +13511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mounting Hole"
+		(property "Value" "MountingHole_Pad"
 			(at 171.45 115.57 0)
 			(effects
 				(font
@@ -13468,7 +13538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 168.91 114.3 0)
 			(effects
 				(font
@@ -13516,7 +13586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mounting Hole"
+		(property "Value" "MountingHole_Pad"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -13543,7 +13613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -13617,7 +13687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 220.98 97.79 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "c344c5d0-cf23-4544-bea1-4c916eeaf203")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -13,21 +13,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -187,7 +185,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -388,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -779,7 +777,7 @@
 				)
 			)
 		)
-		(symbol "PCM_marbastlib-mx:MX_SW_HS"
+		(symbol "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -803,7 +801,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 				(at 0 0 0)
 				(effects
 					(font
@@ -821,7 +819,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 				(at 0 0 0)
 				(effects
 					(font
@@ -839,7 +837,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MX_SW_HS_0_1"
+			(symbol "MX_SW_HS_CPG151101S11_0_1"
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -949,8 +947,76 @@
 			)
 		)
 	)
+	(no_connect
+		(at 59.69 38.1)
+		(uuid "0c8943e6-ba93-4418-b26c-c19e1fc7fde6")
+	)
+	(no_connect
+		(at 53.34 43.18)
+		(uuid "0d3da87e-815b-4213-8d80-715e996968d5")
+	)
+	(no_connect
+		(at 41.91 43.18)
+		(uuid "10820704-e442-4ccc-810a-3aebeb07eec0")
+	)
+	(no_connect
+		(at 26.67 60.96)
+		(uuid "1454e546-e9c0-4cab-b811-131f448364d7")
+	)
+	(no_connect
+		(at 41.91 40.64)
+		(uuid "16528aea-1c8c-4c5d-8179-793ace7537ec")
+	)
+	(no_connect
+		(at 41.91 38.1)
+		(uuid "1d83dfe9-ed89-40f2-a201-ca8b030d9f83")
+	)
+	(no_connect
+		(at 41.91 22.86)
+		(uuid "240437aa-f866-4b13-b2bd-12bd873b5a46")
+	)
+	(no_connect
+		(at 41.91 27.94)
+		(uuid "4713cd2c-a66e-4552-ba70-d440632014b6")
+	)
+	(no_connect
+		(at 71.12 38.1)
+		(uuid "491538e1-9c3c-4952-a1f8-bfcc5964399f")
+	)
+	(no_connect
+		(at 41.91 53.34)
+		(uuid "5999ccd3-bb1b-417b-b817-e2cb4cde87e6")
+	)
+	(no_connect
+		(at 48.26 38.1)
+		(uuid "5e095437-f05d-47ba-a550-ed651b050fc6")
+	)
+	(no_connect
+		(at 64.77 43.18)
+		(uuid "740d3283-0312-4ff6-89e4-b31ed2933e40")
+	)
+	(no_connect
+		(at 19.05 60.96)
+		(uuid "8dc486f5-cc58-431c-9431-6f55b71fa21d")
+	)
+	(no_connect
+		(at 76.2 43.18)
+		(uuid "93ce0daa-e0c3-4cff-b78a-091d1c30ee2d")
+	)
+	(no_connect
+		(at 41.91 50.8)
+		(uuid "9785d19f-6a87-4ea6-a776-721ad9b82490")
+	)
+	(no_connect
+		(at 41.91 35.56)
+		(uuid "c97ba483-665c-4af2-bacd-b3c1bbbc81c5")
+	)
+	(no_connect
+		(at 41.91 30.48)
+		(uuid "ff46bc79-cda2-40ca-b2cf-576f12f19b46")
+	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 50.8 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -975,7 +1041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -993,7 +1059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -1063,7 +1129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 82.55 48.26 0)
 			(effects
 				(font
@@ -1127,7 +1193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 82.55 41.91 0)
 			(effects
 				(font
@@ -1191,7 +1257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 82.55 29.21 0)
 			(effects
 				(font
@@ -1210,7 +1276,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 26.67 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1253,7 +1319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 26.67 38.1 0)
 			(effects
 				(font
@@ -1323,7 +1389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 62.23 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1348,7 +1414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 62.23 40.64 0)
 			(effects
 				(font
@@ -1366,7 +1432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 62.23 40.64 0)
 			(effects
 				(font
@@ -1391,7 +1457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 73.66 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1416,7 +1482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -1434,7 +1500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -1504,7 +1570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 82.55 35.56 0)
 			(effects
 				(font

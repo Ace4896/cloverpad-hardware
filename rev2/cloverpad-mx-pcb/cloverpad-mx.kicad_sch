@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Cloverpad MX")
-		(rev "1")
+		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -17,21 +17,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -52,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,32 +77,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -191,7 +167,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -392,7 +368,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -494,24 +470,6 @@
 						)
 					)
 					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -638,24 +596,6 @@
 						)
 					)
 					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2791,7 +2731,7 @@
 				)
 			)
 		)
-		(symbol "PCM_marbastlib-mx:MX_SW_HS"
+		(symbol "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -2815,7 +2755,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2833,7 +2773,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2851,7 +2791,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MX_SW_HS_0_1"
+			(symbol "MX_SW_HS_CPG151101S11_0_1"
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -3864,9 +3804,9 @@
 		)
 		(symbol "power:+1V1"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3964,8 +3904,8 @@
 			(symbol "+1V1_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+1V1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3984,9 +3924,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4084,8 +4024,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4104,9 +4044,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4204,8 +4144,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4224,9 +4164,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4300,8 +4240,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4320,9 +4260,9 @@
 		)
 		(symbol "power:VBUS"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4336,7 +4276,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4420,8 +4360,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4684,16 +4624,88 @@
 		(uuid "00e6221b-7f56-4adb-923c-a7f985873342")
 	)
 	(no_connect
-		(at 44.45 58.42)
-		(uuid "2ccdf4c7-f187-4504-9e39-da8517bb347b")
+		(at 261.62 86.36)
+		(uuid "05e9eb3c-ca1d-4eb3-9e17-f41f26614668")
+	)
+	(no_connect
+		(at 261.62 55.88)
+		(uuid "08acaf0b-c4a3-4757-bdb5-76b967c8389c")
+	)
+	(no_connect
+		(at 261.62 81.28)
+		(uuid "09d1759f-f76c-4c55-a343-81a8e9332a5a")
+	)
+	(no_connect
+		(at 261.62 127)
+		(uuid "0b74d0dc-c79b-405a-9ac7-d38b20170643")
+	)
+	(no_connect
+		(at 261.62 88.9)
+		(uuid "0d6aa68c-0652-4977-9294-44b32ada782c")
+	)
+	(no_connect
+		(at 261.62 58.42)
+		(uuid "1852b44f-877b-4559-9d66-33829c0bd709")
+	)
+	(no_connect
+		(at 261.62 101.6)
+		(uuid "1a9dd0cf-ed9c-4199-a11d-594f1243e236")
+	)
+	(no_connect
+		(at 261.62 68.58)
+		(uuid "1d629740-211a-428c-be76-64c9a70e6f4a")
+	)
+	(no_connect
+		(at 261.62 91.44)
+		(uuid "3742c10f-fe26-49cf-8423-e3257d8c7d5a")
 	)
 	(no_connect
 		(at 210.82 119.38)
 		(uuid "3b39750f-14ab-4c8d-ba55-9cac56a0c77d")
 	)
 	(no_connect
-		(at 44.45 55.88)
-		(uuid "87790284-9d07-4559-b181-a5840e299d67")
+		(at 261.62 124.46)
+		(uuid "40225b7a-08a7-4dae-a9a5-820204be9563")
+	)
+	(no_connect
+		(at 261.62 63.5)
+		(uuid "44143372-67f7-4b15-8e45-25983b3c27e1")
+	)
+	(no_connect
+		(at 261.62 60.96)
+		(uuid "6507253b-8257-4c3e-b5c9-651b23fefbde")
+	)
+	(no_connect
+		(at 261.62 83.82)
+		(uuid "667acc83-d944-4000-9f84-0edf9c1b3666")
+	)
+	(no_connect
+		(at 261.62 73.66)
+		(uuid "7c1195c4-0eab-40fb-a5a7-bf79756ca2bb")
+	)
+	(no_connect
+		(at 261.62 78.74)
+		(uuid "830d3575-6c3c-470d-a312-3a4b7ada4e33")
+	)
+	(no_connect
+		(at 261.62 96.52)
+		(uuid "83fb889f-2dce-4c05-827b-30e67036a8e2")
+	)
+	(no_connect
+		(at 261.62 121.92)
+		(uuid "90df912a-b5a2-4a10-b17d-43ea89fce295")
+	)
+	(no_connect
+		(at 261.62 53.34)
+		(uuid "9cfba3d4-d454-4e8f-81dd-37701601a862")
+	)
+	(no_connect
+		(at 261.62 129.54)
+		(uuid "a25e6946-1706-4ff1-9d34-cfd21f19072f")
+	)
+	(no_connect
+		(at 261.62 99.06)
+		(uuid "ac08b16b-7431-4061-8af6-6ff097725884")
 	)
 	(no_connect
 		(at 210.82 121.92)
@@ -4702,6 +4714,34 @@
 	(no_connect
 		(at 99.06 45.72)
 		(uuid "afb485a1-5a52-4cd4-8766-59ae04f6fc2d")
+	)
+	(no_connect
+		(at 261.62 71.12)
+		(uuid "c10da962-3f6e-4e16-997a-23b19dd2d761")
+	)
+	(no_connect
+		(at 261.62 76.2)
+		(uuid "c31e4310-68ca-491d-94a0-fc2f21c4178d")
+	)
+	(no_connect
+		(at 261.62 66.04)
+		(uuid "e1b7bfaf-492d-4095-bb11-345404481167")
+	)
+	(no_connect
+		(at 261.62 93.98)
+		(uuid "e52ac6c2-3a9e-4a3e-bc7e-39b4caa8f8da")
+	)
+	(no_connect
+		(at 261.62 104.14)
+		(uuid "e9681a65-575f-4e06-b438-2621a32e8886")
+	)
+	(no_connect
+		(at 261.62 109.22)
+		(uuid "ea740d7f-d20b-44a8-a3f2-70a65e8880b0")
+	)
+	(no_connect
+		(at 261.62 106.68)
+		(uuid "eaa88fdb-6e13-4c52-be6d-2ca7b022e079")
 	)
 	(wire
 		(pts
@@ -6490,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 35.56 0)
 			(effects
 				(font
@@ -6556,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 236.22 137.16 0)
 			(effects
 				(font
@@ -6623,7 +6663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -6701,7 +6741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -6765,7 +6805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 78.74 170.18 0)
 			(effects
 				(font
@@ -6843,7 +6883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 19.05 129.54 0)
 			(effects
 				(font
@@ -6908,7 +6948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 24.13 125.73 0)
 			(effects
 				(font
@@ -6986,7 +7026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 			(at 128.27 43.18 0)
 			(effects
 				(font
@@ -7067,7 +7107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 62.23 27.94 0)
 			(effects
 				(font
@@ -7133,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -7200,7 +7240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 88.9 163.83 0)
 			(effects
 				(font
@@ -7279,7 +7319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 29.21 91.44 0)
 			(effects
 				(font
@@ -7355,7 +7395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 133.35 153.67 0)
 			(effects
 				(font
@@ -7434,7 +7474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -7510,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 34.29 121.92 0)
 			(effects
 				(font
@@ -7594,7 +7634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 86.36 30.48 0)
 			(effects
 				(font
@@ -7660,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -7682,7 +7722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 74.93 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7706,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 74.93 138.43 0)
 			(effects
 				(font
@@ -7715,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211090930_Kailh-CPG151101S11-1_C5184526.pdf"
+		(property "Datasheet" "~"
 			(at 74.93 138.43 0)
 			(effects
 				(font
@@ -7724,7 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 74.93 138.43 0)
 			(effects
 				(font
@@ -7802,7 +7842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 140.97 0)
 			(effects
 				(font
@@ -7869,7 +7909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -7948,7 +7988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 139.7 138.43 0)
 			(effects
 				(font
@@ -8026,7 +8066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 90.17 113.03 0)
 			(effects
 				(font
@@ -8102,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
 			(at 86.36 43.18 0)
 			(effects
 				(font
@@ -8192,7 +8232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 54.61 27.94 0)
 			(effects
 				(font
@@ -8226,7 +8266,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 100.33 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8250,7 +8290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -8259,7 +8299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211090930_Kailh-CPG151101S11-1_C5184526.pdf"
+		(property "Datasheet" "~"
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -8268,7 +8308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -8344,7 +8384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -8422,7 +8462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 140.97 0)
 			(effects
 				(font
@@ -8488,7 +8528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -8554,7 +8594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -8621,7 +8661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -8699,7 +8739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 110.49 113.03 0)
 			(effects
 				(font
@@ -8773,7 +8813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -8840,7 +8880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -8918,7 +8958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 231.14 45.72 0)
 			(effects
 				(font
@@ -8984,7 +9024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 46.99 27.94 0)
 			(effects
 				(font
@@ -9051,7 +9091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -9129,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -9195,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 176.53 0)
 			(effects
 				(font
@@ -9260,7 +9300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 204.47 63.5 0)
 			(effects
 				(font
@@ -9339,7 +9379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 19.05 91.44 0)
 			(effects
 				(font
@@ -9417,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -9483,7 +9523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 55.88 0)
 			(effects
 				(font
@@ -9549,7 +9589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 35.56 151.13 0)
 			(effects
 				(font
@@ -9614,7 +9654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -9681,7 +9721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 50.8 153.67 0)
 			(effects
 				(font
@@ -9759,7 +9799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 238.76 45.72 0)
 			(effects
 				(font
@@ -9825,7 +9865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 170.18 0)
 			(effects
 				(font
@@ -9892,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 139.7 46.99 0)
 			(effects
 				(font
@@ -9971,7 +10011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 39.37 91.44 0)
 			(effects
 				(font
@@ -10048,7 +10088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -10126,7 +10166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -10192,7 +10232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 153.67 0)
 			(effects
 				(font
@@ -10257,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -10322,7 +10362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 24.13 118.11 0)
 			(effects
 				(font
@@ -10398,7 +10438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -10477,7 +10517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 139.7 147.32 0)
 			(effects
 				(font
@@ -10553,7 +10593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -10632,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -10710,7 +10750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 129.54 0)
 			(effects
 				(font
@@ -10777,7 +10817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 35.56 163.83 0)
 			(effects
 				(font
@@ -10829,7 +10869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 87.63 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10853,7 +10893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -10862,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211090930_Kailh-CPG151101S11-1_C5184526.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -10871,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -10950,7 +10990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -11028,7 +11068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 19.05 88.9 0)
 			(effects
 				(font
@@ -11095,7 +11135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "A microcontroller by Raspberry Pi"
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -11337,7 +11377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -11403,7 +11443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -11470,7 +11510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -11549,7 +11589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -11626,7 +11666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -11648,7 +11688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 29.21 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11691,7 +11731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -11727,9 +11767,6 @@
 		(pin "A7"
 			(uuid "4ffe326a-2a08-475b-9133-6500860490ae")
 		)
-		(pin "A8"
-			(uuid "74f28b20-1dea-454c-acf9-17f0ab204245")
-		)
 		(pin "A9"
 			(uuid "bac1ce24-eedd-4a97-92f7-babd0f48e3df")
 		)
@@ -11750,9 +11787,6 @@
 		)
 		(pin "B7"
 			(uuid "431c901e-878f-4d13-99d7-9a94db70392e")
-		)
-		(pin "B8"
-			(uuid "276916c8-d1bc-4b4d-b93b-0abf2d3e72b6")
 		)
 		(pin "B9"
 			(uuid "c021d75f-b552-4b4a-8b62-b054c0311f66")
@@ -11814,7 +11848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 50.8 156.21 0)
 			(effects
 				(font
@@ -11880,7 +11914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -11955,7 +11989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -12029,7 +12063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 123.19 153.67 0)
 			(effects
 				(font
