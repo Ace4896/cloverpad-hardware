@@ -9,7 +9,7 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,10 +77,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -167,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -368,7 +390,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -470,6 +492,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -596,6 +636,24 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2537,23 +2595,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2578,7 +2636,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2596,7 +2654,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2605,9 +2663,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -2615,26 +2673,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -4222,126 +4260,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 129.54 152.4)
@@ -4456,12 +4374,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56559bbd-a84a-4931-af59-9376568a650d")
-	)
-	(junction
-		(at 46.99 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "570afe6f-6203-495c-b8b7-34e937d23d66")
 	)
 	(junction
 		(at 97.79 93.98)
@@ -4688,6 +4600,10 @@
 		(uuid "83e2bd34-519c-42f9-b870-cedb02992ce4")
 	)
 	(no_connect
+		(at 44.45 58.42)
+		(uuid "9a9e1140-01c6-4532-b439-1720898ab6dc")
+	)
+	(no_connect
 		(at 87.63 171.45)
 		(uuid "a14665f7-54f1-4c47-8072-2579b834b576")
 	)
@@ -4714,6 +4630,10 @@
 	(no_connect
 		(at 87.63 166.37)
 		(uuid "be1b6905-3857-4ba4-bc55-7bf40e264813")
+	)
+	(no_connect
+		(at 44.45 55.88)
+		(uuid "be217cd8-5de8-4f05-875c-d8031c4b9a6c")
 	)
 	(no_connect
 		(at 87.63 125.73)
@@ -4775,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 27.94) (xy 44.45 27.94)
+			(xy 44.45 27.94) (xy 46.99 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4832,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "140a7074-1aa7-4b0b-81f6-933151f68771")
+	)
+	(wire
+		(pts
+			(xy 52.07 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170a9754-cf6d-45d2-9cb9-c6cd7026b7db")
 	)
 	(wire
 		(pts
@@ -4942,16 +4872,6 @@
 			(type default)
 		)
 		(uuid "3cacccfe-51c6-4dc1-97e0-71222f77ca6e")
-	)
-	(wire
-		(pts
-			(xy 57.15 27.94) (xy 62.23 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40367e53-ec3f-4655-bd84-4f215a44cfef")
 	)
 	(wire
 		(pts
@@ -5665,16 +5585,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 27.94) (xy 46.99 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd68bfa3-5d3e-42dc-b26a-242f181a6e41")
-	)
-	(wire
-		(pts
 			(xy 45.72 48.26) (xy 45.72 46.99)
 		)
 		(stroke
@@ -5839,7 +5749,7 @@
 	)
 	(rectangle
 		(start 165.1 110.49)
-		(end 247.65 123.19)
+		(end 247.65 118.11)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6858,72 +6768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.23 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0714a93b-83bc-4d82-bd02-20db40a57c23")
-		(property "Reference" "#PWR059"
-			(at 189.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddbe9262-b913-4ee7-b305-e023b57abeab")
-		)
-		(instances
-			(project "cloverpad-he"
-				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 269.24 163.83 180)
 		(unit 1)
@@ -7219,72 +7063,6 @@
 			(project "cloverpad-he"
 				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 209.55 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bd6bf75-fc84-4a2a-aa5c-78087c440eae")
-		(property "Reference" "#PWR060"
-			(at 209.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed9a0220-2bb2-4acc-8510-e14e46eca4ba")
-		)
-		(instances
-			(project "cloverpad-he"
-				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7869,7 +7647,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 62.23 27.94 0)
+		(at 58.42 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7878,7 +7656,7 @@
 		(fields_autoplaced yes)
 		(uuid "239bd4d8-7e2e-47b7-a3d7-79bfdce491bc")
 		(property "Reference" "#PWR02"
-			(at 62.23 31.75 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +7665,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 62.23 22.86 0)
+			(at 58.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +7673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 27.94 0)
+			(at 58.42 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +7682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 27.94 0)
+			(at 58.42 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +7691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 27.94 0)
+			(at 58.42 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Custom:KS-20-1U-DRV5056"
 			(at 189.23 158.75 0)
 			(effects
 				(font
@@ -8910,11 +8688,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 189.23 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4042b055-8cd5-45c3-8b66-af3f8f76e681")
@@ -8936,7 +8714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 189.23 114.3 0)
 			(effects
 				(font
@@ -8954,7 +8732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 189.23 114.3 0)
 			(effects
 				(font
@@ -8971,9 +8749,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f024dbbb-b7be-47b7-a88f-e1aac20b080d")
 		)
 		(instances
 			(project "cloverpad-he"
@@ -9077,7 +8852,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 54.61 27.94 270)
+		(at 49.53 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9086,7 +8861,7 @@
 		(fields_autoplaced yes)
 		(uuid "46dd0d53-004f-4545-9dd0-4eee11a9aa7f")
 		(property "Reference" "F1"
-			(at 54.61 21.59 90)
+			(at 49.53 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +8869,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 54.61 24.13 90)
+			(at 49.53 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +8877,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 49.53 29.21 0)
+			(at 44.45 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +8887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 27.94 0)
+			(at 49.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +8896,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 54.61 27.94 0)
+			(at 49.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +8905,7 @@
 			)
 		)
 		(property "LCSC" "C170165"
-			(at 54.61 27.94 0)
+			(at 49.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Custom:KS-20-1U-DRV5056"
 			(at 306.07 158.75 0)
 			(effects
 				(font
@@ -9744,11 +9519,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 209.55 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "658307e2-21e1-49f4-a33b-c488e70ad3dd")
@@ -9770,7 +9545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 209.55 114.3 0)
 			(effects
 				(font
@@ -9788,7 +9563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 209.55 114.3 0)
 			(effects
 				(font
@@ -9805,9 +9580,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "156f90b5-9c08-4f61-a282-01da348e8e18")
 		)
 		(instances
 			(project "cloverpad-he"
@@ -10024,72 +9796,6 @@
 			(project "cloverpad-he"
 				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 46.99 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68265b5c-b607-4694-93ef-383f4bc6113a")
-		(property "Reference" "#PWR01"
-			(at 46.99 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 46.99 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 46.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d6cc11c-6721-45e9-96dc-1b7f18c8b359")
-		)
-		(instances
-			(project "cloverpad-he"
-				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10767,7 +10473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Custom:KS-20-1U-DRV5056"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -11678,72 +11384,6 @@
 			(project "cloverpad-he"
 				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b24923eb-e75c-435e-b77a-f25f17fbb9b2")
-		(property "Reference" "#PWR058"
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ed61d97-d77a-46cf-9a34-1cfda21a515b")
-		)
-		(instances
-			(project "cloverpad-he"
-				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13032,7 +12672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 29.21 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13075,7 +12715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -13137,6 +12777,12 @@
 		)
 		(pin "S1"
 			(uuid "3c185306-f4dd-46cb-9619-c55275ea0510")
+		)
+		(pin "B8"
+			(uuid "a246ccae-ce20-4776-8470-e5ce52644c29")
+		)
+		(pin "A8"
+			(uuid "c1fdc27a-7ece-4ea9-8b11-ca842fe05de4")
 		)
 		(instances
 			(project "cloverpad-he"
@@ -13218,72 +12864,6 @@
 			(project "cloverpad-he"
 				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 229.87 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0d1aef1-5566-44e3-b023-3d80e43a756f")
-		(property "Reference" "#PWR061"
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beb71f95-09ef-4d62-9032-6b0b72cdb9cb")
-		)
-		(instances
-			(project "cloverpad-he"
-				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13422,11 +13002,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 168.91 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f754c1da-3350-45e6-aaac-fa3494ee17ac")
@@ -13448,7 +13028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 168.91 114.3 0)
 			(effects
 				(font
@@ -13466,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 168.91 114.3 0)
 			(effects
 				(font
@@ -13484,9 +13064,6 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a18cd808-c458-4edf-98e2-47cda131fdbd")
-		)
 		(instances
 			(project "cloverpad-he"
 				(path "/a63f8075-a969-4b1c-b924-6f5af0e1e9e2"
@@ -13497,11 +13074,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 229.87 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fae9e0fa-9728-46dd-8fbf-fb5c1006cf8a")
@@ -13523,7 +13100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -13541,7 +13118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -13558,9 +13135,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7b64755d-acd5-4224-b5fa-7f63472db9b7")
 		)
 		(instances
 			(project "cloverpad-he"
