@@ -421,6 +421,126 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(layer "B.Cu")
+		(uuid "4606aaac-0f19-4fbf-aae5-7e0924f7fe64")
+		(at 106.561027 94.645377 180)
+		(descr "Mounting Hole 2.2mm, M2")
+		(tags "mounting hole 2.2mm m2")
+		(property "Reference" "H4"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(uuid "c90f7d09-5059-44d9-badd-54cca662d413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(uuid "2edf02b9-be5d-4224-a4f5-051eda0fec48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "945b36b0-745b-4932-9d67-8a3170694c0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b150442b-9805-417f-adb9-058d6aad5eef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be9e4da4-0aa2-40c5-8be9-aeb2b6b6f871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/03d5dcdb-d2e3-4d02-a2f5-c2f212058b7e")
+		(sheetname "Root")
+		(sheetfile "cloverpad-mx.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a1d3ffae-0734-4a3a-a4e9-51a0d0b6c4f4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "60d9fd7a-1874-498c-84ad-6c57cbe27b3d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "3e9bca62-83d3-4476-bd01-cc23031e6f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 4.4 4.4)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "5532ff11-8c3e-4b0a-a39d-ed85f3734adc")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "4e47e834-53dc-41b3-9069-ffeee94ca7a4")
@@ -3240,7 +3360,7 @@
 		(descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
-			(at 0 5.85 270)
+			(at 0 5.85 -90)
 			(layer "B.SilkS")
 			(uuid "c43e9324-53f4-4f4f-96e4-f9f7d0cd4368")
 			(effects
@@ -3252,7 +3372,7 @@
 			)
 		)
 		(property "Value" "STM32F072CBT6"
-			(at 0 -5.85 270)
+			(at 0 -5.85 -90)
 			(layer "B.Fab")
 			(uuid "997395f1-6207-4ad6-8a8c-4b32e36b1247")
 			(effects
@@ -3704,7 +3824,7 @@
 			(uuid "414e4613-ad54-4bf4-909d-5b6392e6aa95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "aa37497c-9536-4c93-8f88-8cebdc37ad27")
 			(effects
@@ -5731,6 +5851,126 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(layer "B.Cu")
+		(uuid "9845fb51-db7d-4874-908c-4782089356c6")
+		(at 106.561027 82.745377 180)
+		(descr "Mounting Hole 2.2mm, M2")
+		(tags "mounting hole 2.2mm m2")
+		(property "Reference" "H2"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(uuid "eccc7836-ec80-42c7-b2fe-dcaac5320e43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(uuid "bd4f630c-c247-4635-b6c5-dd0e5b4f3649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7276e93e-7527-4c62-ac0a-362fc100a02e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d9e4fb0-c955-4c57-b432-8303cbf539a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "af29f6f6-7b1c-43c8-97ef-2a2fff6ecfbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/1a91e572-3f4b-4ad0-9364-54616255b01b")
+		(sheetname "Root")
+		(sheetfile "cloverpad-mx.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6c61093f-8ad3-435d-87f1-aa95e7e510d9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "0a63e5eb-5fd8-4aef-87d9-0548af8c91f9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "f578847c-22fa-4154-a32b-e81529b5863e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 4.4 4.4)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "2babb0b8-7d18-41b5-afed-756d30681d83")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -9233,6 +9473,126 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(layer "B.Cu")
+		(uuid "d5bc6e19-962d-477a-88d3-f3185ea03f91")
+		(at 106.561027 88.695377 180)
+		(descr "Mounting Hole 2.2mm, M2")
+		(tags "mounting hole 2.2mm m2")
+		(property "Reference" "H3"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(uuid "c31eca92-9ed2-49b0-ad8f-1e8827c78ebe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(uuid "8073f3c7-0cdc-414d-aa1b-95eaa4041135")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f912b706-7a89-44ae-874d-420a03949193")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3bc89c1-a285-4608-9d39-2ed7d46821d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6006b8eb-b1f9-4d8d-9cec-6273660e88ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/bcbebc6b-ab31-4485-828e-4547f60123a2")
+		(sheetname "Root")
+		(sheetfile "cloverpad-mx.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "dd2dd5a0-c013-4ae9-8656-5a2584896e80")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "ebe7c3b0-a6bd-40b2-bd5a-0f3b9f083881")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "2298990b-e4de-4600-99f0-fde9363c6865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 4.4 4.4)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "eed154f8-6906-4025-892a-4a3d69f04e2a")
+		)
+	)
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "B.Cu")
 		(uuid "d843f125-6d3b-4135-8872-8dc1e4aef67a")
@@ -10409,6 +10769,126 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
+		(layer "B.Cu")
+		(uuid "f199b28b-de64-4f20-a803-3ad170a5d6c5")
+		(at 106.561027 76.795377 180)
+		(descr "Mounting Hole 2.2mm, M2")
+		(tags "mounting hole 2.2mm m2")
+		(property "Reference" "H1"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(uuid "f32fcd1c-c692-4955-8b95-bc123c2a2f85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(uuid "33d48de3-642c-43eb-a94b-59d609c76215")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9389d2c4-6297-467f-bef1-2abc4fea1431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed03e91e-c6ec-489e-b3a5-1903a2e24ee8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48140734-a636-418c-aebf-4da9defea458")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/ff9a8210-2c50-4d41-b9a1-1550691ec5ca")
+		(sheetname "Root")
+		(sheetfile "cloverpad-mx.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "34541013-52f7-40c1-b44f-37646dcbf202")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "b1d60e35-1f9e-4099-983b-834c1c6ddf8f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "cda92745-97a3-4e48-9041-7bdc2e3f3b1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 4.4 4.4)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "00bec785-3253-4ca3-a9fb-6c490c1b679c")
 		)
 	)
 	(footprint "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
