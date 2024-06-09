@@ -31,7 +31,7 @@ Required parts (for reference):
 
 ## Known Issues
 
-There are a few major flaws with this design
+There are a few major flaws with this design:
 
 - When installing threaded inserts into the top/bottom pieces, the walls surrounding the threaded insert can crack
   - This is due to the supporting walls being too thin and/or the blind hole being too shallow
