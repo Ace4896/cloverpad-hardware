@@ -155,7 +155,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
 		(uuid "0a2bf6ce-ebdd-4514-a803-d211dba00613")
-		(at 38.099984 75.811647 180)
+		(at 38.099984 66.261647 180)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX3"
 			(at -4.25 1.75 180)
@@ -190,6 +190,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -203,6 +204,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -216,6 +218,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -774,7 +777,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
 		(uuid "1f33a64f-66ac-407a-8fbe-56ee2f96119e")
-		(at 57.15 75.811647 180)
+		(at 57.15 66.261647 180)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX2"
 			(at -4.25 1.75 180)
@@ -809,6 +812,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -822,6 +826,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -835,6 +840,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -913,7 +919,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.15)
@@ -1171,7 +1177,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -1254,7 +1260,7 @@
 		)
 		(fp_arc
 			(start 6.085176 4.75022)
-			(mid 5.499389 6.164432)
+			(mid 5.499388 6.164432)
 			(end 4.085176 6.75022)
 			(stroke
 				(width 0.05)
@@ -1393,7 +1399,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
 		(uuid "7f02f931-075b-481a-b551-624f04fdd8b5")
-		(at 76.200016 75.811647 180)
+		(at 76.200016 66.261647 180)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX1"
 			(at -4.25 1.75 180)
@@ -1428,6 +1434,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1441,6 +1448,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1454,6 +1462,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2012,7 +2021,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "B.Cu")
 		(uuid "af677b3e-4a9a-4ae6-9759-a09c83fd0c6a")
-		(at 89.15 24.761647 180)
+		(at 80.65 42.761647 180)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H2"
@@ -2048,6 +2057,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2060,6 +2070,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2072,6 +2083,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2123,7 +2135,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "B.Cu")
 		(uuid "d331d52a-d54e-4fc4-af16-e351073d2d0c")
-		(at 89.15 88.761647 180)
+		(at 66.65 73.261647 180)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H4"
@@ -2159,6 +2171,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2171,6 +2184,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2183,6 +2197,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2234,7 +2249,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "B.Cu")
 		(uuid "d901d11d-06a5-4da7-807e-f1919681f6f1")
-		(at 25.15 88.761647 180)
+		(at 47.65 73.261647 180)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H3"
@@ -2270,6 +2285,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2282,6 +2298,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2294,6 +2311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2345,7 +2363,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "B.Cu")
 		(uuid "e96b9699-6c48-44ce-a933-c012e0abb684")
-		(at 25.15 24.761647 180)
+		(at 33.65 42.761647 180)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H1"
@@ -2381,6 +2399,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2393,6 +2412,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2405,6 +2425,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2456,7 +2477,7 @@
 	(footprint "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "B.Cu")
 		(uuid "f2bc61b3-960b-4eef-8680-40c700bc9c28")
-		(at 57.15 20.761647)
+		(at 57.15 38.216647)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
@@ -2492,6 +2513,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2504,6 +2526,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2516,6 +2539,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2841,176 +2865,30 @@
 			)
 		)
 	)
-	(gr_line
-		(start 24.15 21.761647)
-		(end 49.15 21.761647)
+	(gr_rect
+		(start 27.15 34.261647)
+		(end 87.15 79.261647)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "b9ddd133-5d05-4295-8292-f3c06a37ddec")
+	)
+	(gr_rect
+		(start 28.65 40.261647)
+		(end 85.65 75.761647)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
+		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "04d1e6d6-e9db-47fd-9d31-2de0b7c54758")
+		(uuid "ac26fffe-2d52-4248-9767-3d1a4fa483fa")
 	)
-	(gr_arc
-		(start 92.15 89.761647)
-		(mid 91.564197 91.17583)
-		(end 90.15 91.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0d45c5c0-e29c-4983-bba6-a2a8727b95a4")
-	)
-	(gr_line
-		(start 65.15 21.761647)
-		(end 90.15 21.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "23eadd05-f4ba-4e5a-b44c-f4a52810d035")
-	)
-	(gr_line
-		(start 63.15 18.761647)
-		(end 63.15 19.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "259cbabb-5be8-4cf8-b503-dfe5a6243874")
-	)
-	(gr_arc
-		(start 51.15 19.761647)
-		(mid 50.564197 21.17583)
-		(end 49.15 21.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2813c92f-f136-4acf-b742-78a08d55ae79")
-	)
-	(gr_arc
-		(start 22.15 23.761647)
-		(mid 22.73577 22.347403)
-		(end 24.15 21.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "295ad47f-8f34-447d-9dda-2c353952cb88")
-	)
-	(gr_line
-		(start 90.15 91.761647)
-		(end 24.15 91.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "47c5734c-10ed-432f-87d6-a03629822c45")
-	)
-	(gr_arc
-		(start 51.15 18.761647)
-		(mid 51.73577 17.347403)
-		(end 53.15 16.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "56db90b3-206c-41bb-9700-338abd86a0d9")
-	)
-	(gr_arc
-		(start 61.15 16.761647)
-		(mid 62.564214 17.347433)
-		(end 63.15 18.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "584925ca-a363-4f6a-82f1-a818ef51e368")
-	)
-	(gr_line
-		(start 22.15 89.761647)
-		(end 22.15 23.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6a4c8b3b-414e-4584-bb29-85abb2565901")
-	)
-	(gr_arc
-		(start 24.15 91.761647)
-		(mid 22.735786 91.175861)
-		(end 22.15 89.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6cd74a2c-9b05-457a-80c2-4cff6dea2dc9")
-	)
-	(gr_line
-		(start 92.15 23.761647)
-		(end 92.15 89.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7af08add-6bdd-4ed3-b942-3287ef811430")
-	)
-	(gr_line
-		(start 53.15 16.761647)
-		(end 61.15 16.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "90766b6a-53da-4ed4-af53-5b5d3dbf0c78")
-	)
-	(gr_arc
-		(start 65.15 21.761647)
-		(mid 63.735786 21.175861)
-		(end 63.15 19.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9bed220c-bc6c-43a9-992c-8fb04e337bea")
-	)
-	(gr_line
-		(start 51.15 19.761647)
-		(end 51.15 18.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "aa7ad70e-6594-4c4a-9e47-f2babc0c49d3")
-	)
-	(gr_arc
-		(start 90.15 21.761647)
-		(mid 91.564214 22.347433)
-		(end 92.15 23.761647)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c35725af-2289-435b-b5d1-75de6237c67a")
-	)
-	(gr_text "70x70mm PCB\n5mm extension at top of PCB for USB-C port\nSwitches 19.05mm below centre of PCB\nM2 mounting holes 3mm away from edge"
-		(at 97.15 27.761647 0)
+	(gr_text "60x45mm Case\n??x??mm PCB\n??mm extension at top of PCB for USB-C port\nSwitches ??mm below centre of PCB\nM2 mounting holes ??mm away from edge"
+		(at 88.15 41.761647 0)
 		(layer "Cmts.User")
 		(uuid "69c65575-c88c-4a69-9291-68d14f5bd7e0")
 		(effects
