@@ -29,7 +29,7 @@ git clone git@github.com:Cloverpad/cloverpad-hardware.git
 Then navigate to the folder for the revision you're interested in:
 
 - [Rev. 2](./rev2)
-- [Rev. 1](./rev1) (not recommended due to design flaws)
+- [Rev. 1](./rev1) (Cloverpad MX only; not recommended due to design flaws)
 
 ## Additional Files
 

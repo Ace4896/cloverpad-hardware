@@ -12,8 +12,7 @@ This folder contains the hardware designs for the Cloverpad rev. 1.
 Features:
 
 - RP2040 MCU
-- Cloverpad HE supports hot-swappable MX-style hall effect switches
-- Cloverpad MX supports hot-swappable MX-style digital switches
+- Cloverpad MX PCB - supports hot-swappable MX-style digital switches
 - 3D printed case w/ threaded inserts
 
 Required parts (for reference):
@@ -28,7 +27,6 @@ Required parts (for reference):
 
 - [`cloverpad-case.FCStd`](./cloverpad-case.FCStd): FreeCAD 0.21 project for the 3D printed case.
   - [`cloverpad-case-top.step`](./cloverpad-case-top.step) and [`cloverpad-case-bottom.step`](./cloverpad-case-bottom.step) are exported from this FreeCAD project
-- [`cloverpad-he-pcb`](./cloverpad-he-pcb): KiCad 8 project for the Cloverpad HE rev. 1 PCB.
 - [`cloverpad-mx-pcb`](./cloverpad-mx-pcb): KiCad 8 project for the Cloverpad MX rev. 1 PCB.
 
 ## Known Issues
